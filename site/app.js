@@ -1,7 +1,7 @@
 (() => {
   const $ = (selector) => document.querySelector(selector);
   const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[char]));
-  const percent = (value) => `${value * 100}%`;
+  const percent = (value) => `${(value * 100).toFixed(1)}%`;
   const runSelect = $("#run-select");
   const runResult = $("#run-result");
   const copyExample = $("#copy-example");
@@ -17,15 +17,18 @@
     copyExample.dataset.copy = run.narrative;
   };
   const renderMetrics = (metrics) => {
-    $("#headline-stats").innerHTML = `<div class="stat"><b>${percent(metrics.macro_accuracy)}</b><span>Auditor macro accuracy</span></div><div class="stat"><b>${percent(metrics.baseline_macro_accuracy)}</b><span>Keyword baseline</span></div><div class="stat"><b>${percent(metrics.evidence_exact_rate)}</b><span>Evidence exact rate</span></div><div class="stat"><b>${metrics.seconds_per_report} s</b><span>Measured per report</span></div>`;
-    const labels = {crash_partner: "Crash partner", roadway_type: "Roadway type", other_party_movement: "Other party movement", injury_severity: "Injury severity"};
-    $("#metric-rows").innerHTML = Object.entries(metrics.fields).map(([key, value]) => `<tr><td>${labels[key]}</td><td>${percent(value.model_accuracy)}</td><td>${percent(value.baseline_accuracy)}</td><td>${percent(value.ci95[0])} to ${percent(value.ci95[1])}</td></tr>`).join("");
-    $("#recording-note").textContent = `${metrics.model_rows} held-out reports. ${metrics.recorded_with}. Cash cost per 1,000 reports: $${metrics.cash_cost_per_1000.toFixed(2)} through the subscription CLI.`;
+    $("#headline-stats").innerHTML = `<div class="stat"><b>${metrics.answered_slot_count.toLocaleString()}</b><span>Answered field values</span></div><div class="stat"><b>${percent(metrics.answered_slot_accuracy.model)}</b><span>Extractor on answered values</span></div><div class="stat"><b>${percent(metrics.answered_slot_accuracy.majority)}</b><span>Majority on same values</span></div><div class="stat"><b>${percent(metrics.evidence_exact_rate)}</b><span>Evidence exact rate</span></div>`;
+    $("#metric-rows").innerHTML = Object.entries(metrics.fields).map(([key, value]) => `<tr><td>${escapeHtml(value.majority_value === undefined ? key : ({crash_partner: "Crash partner", roadway_type: "Roadway type", other_party_movement: "Other party movement", injury_severity: "Injury severity"}[key]))}</td><td>${percent(value.coverage.model)}</td><td>${percent(value.answered_slot_accuracy.model)}</td><td>${percent(value.answered_slot_accuracy.majority)}</td><td>${percent(value.answered_slot_accuracy.keyword)}</td><td>${percent(value.all_rows_accuracy.model)}</td><td>${percent(value.all_rows_accuracy.majority)}</td><td>${percent(value.all_rows_accuracy.keyword)}</td></tr>`).join("");
+    $("#recording-note").textContent = `${metrics.model_rows} held-out reports. ${metrics.recorded_with}. Roadway type and injury severity barely beat or tie majority because one filed category dominates each field, while narratives rarely state property damage. Cash cost per 1,000 reports: $${metrics.cash_cost_per_1000.toFixed(2)} through the subscription CLI.`;
+  };
+  const renderReview = (disagreements) => {
+    $("#review-list").innerHTML = disagreements.top_pairs.map((pair) => `<article class="review-item"><div class="review-head"><div><p class="mono">${escapeHtml(pair.label)}</p><h3 class="h3">Filed “${escapeHtml(pair.filed)}” / model “${escapeHtml(pair.model)}”</h3></div><span class="chip">${pair.count} queued</span></div><p class="prose">Example ${escapeHtml(pair.example.report_id)}: “${escapeHtml(pair.example.narrative)}”</p>${pair.example.evidence ? `<p class="evidence">Evidence quote: “${escapeHtml(pair.example.evidence)}”</p>` : ""}</article>`).join("");
+    $("#review-note").textContent = `${disagreements.disagreement_slots} mismatched field values are queued for human review across ${disagreements.pair_count} filed/model pairs. Each listed pair includes one recorded example.`;
   };
   const load = async () => {
-    const [demo, metrics] = await Promise.all([fetch("data/demo.json").then((response) => response.json()), fetch("data/metrics.json").then((response) => response.json())]);
+    const [demo, metrics, disagreements] = await Promise.all([fetch("data/demo.json").then((response) => response.json()), fetch("data/metrics.json").then((response) => response.json()), fetch("data/disagreements.json").then((response) => response.json())]);
     demo.runs.forEach((run, index) => runSelect.add(new Option(`${run.report_id} / ${run.reporting_entity}`, String(index))));
-    renderRun(demo.runs[0]); renderMetrics(metrics);
+    renderRun(demo.runs[0]); renderMetrics(metrics); renderReview(disagreements);
     runSelect.addEventListener("change", () => renderRun(demo.runs[Number(runSelect.value)]));
   };
   const prompt = (narrative) => `Extract crash_partner, roadway_type, other_party_movement, and injury_severity from this crash narrative. Return strict JSON with each answer plus an evidence span. Use not stated when silent. Narrative: ${narrative}`;

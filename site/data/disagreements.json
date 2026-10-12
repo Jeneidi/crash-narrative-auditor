@@ -1,88 +1,115 @@
 {
   "count_listed": 50,
-  "note": "These are queued for human review. No automated label was treated as a hand check.",
+  "pair_count": 68,
+  "disagreement_slots": 225,
+  "note": "These answered mismatches are queued for human review. Intentional not stated abstentions are counted in coverage, not as disagreements. No automated label was treated as a hand check.",
+  "top_pairs": [
+    {
+      "field": "roadway_type",
+      "label": "Roadway type",
+      "filed": "Street",
+      "model": "Intersection",
+      "count": 81,
+      "example": {
+        "id": "088729e52313",
+        "report_id": "31101-14926",
+        "narrative": "On April [XXX], 2026 at 7:37 AM, an AVRIDE autonomous vehicle (the \"AVRIDE AV\") was in a collision in Dallas, Texas on [XXX] near [XXX]. The AVRIDE AV was traveling southeastbound on [XXX] in autonomous mode as it approached the intersection with [XXX]. The AVRIDE AV proceeded straight ahead as there is no stop sign at the intersection for vehicles traveling on [XXX]. As the AVRIDE AV approached the intersection, a passenger car was stopped at the stop sign on the right side of the road on [XXX]. When the AVRIDE AV entered the intersection, the passenger car entered the intersection at the last second resulting in the front of the passenger car making contact with the right side of the AVRIDE AV. Both vehicles sustained damage. No injuries were reported.",
+        "evidence": "as it approached the intersection with [XXX]"
+      }
+    },
+    {
+      "field": "injury_severity",
+      "label": "Injury severity",
+      "filed": "Property Damage. No Injured Reported",
+      "model": "No Injured Reported",
+      "count": 22,
+      "example": {
+        "id": "1dd87dd0393c",
+        "report_id": "30610-15018",
+        "narrative": "An unoccupied Zoox autonomous vehicle was traveling south on [XXX] on a green light at [XXX] in San Francisco when a pickup truck (Vehicle 2) executed an abrupt left turn from northbound [XXX] and accelerated into the Zoox vehicle's right-of-way. The Zoox vehicle braked hard, but contact was unavoidable. Vehicle 2's front bumper struck the Zoox vehicle's left side door and body panels. After reversing, Vehicle 2 cleared the intersection, pulled over temporarily, and then left without exchanging information. Shortly afterward, the Zoox vehicle cleared the intersection, pulled over, and was towed for inspection. It was found to have sustained moderate damage. No injuries were reported, and police were not called.",
+        "evidence": "No injuries were reported"
+      }
+    },
+    {
+      "field": "other_party_movement",
+      "label": "Other party movement",
+      "filed": "Proceeding Straight",
+      "model": "Other, see Narrative",
+      "count": 10,
+      "example": {
+        "id": "d7b498e69a1f",
+        "report_id": "30413-14938",
+        "narrative": "On April [XXX], 2026, at 1:59 pm EST, a third-party vehicle, John Deere UTV Crossover Gator Utility Vehicle, collided with a May Mobility Autonomous Vehicle (AV) in Atlanta, Georgia, at the intersection of [XXX] and [XXX]. The May Mobility AV was traveling south on [XXX] in Atlanta, Georgia approaching the intersection of [XXX] on a green traffic light, with its automated driving system engaged in autonomous mode. The third- party vehicle was traveling west on [XXX] approaching a red light at [XXX] when it ran the red light and proceeded into the intersection without slowing, making contact with the May Mobility AV. The May Mobility AV began to apply the brakes as the third- party vehicle started to run the red light. During the May Mobility AVâs braking, the telematics confirm that the Autonomous Vehicle Operator also started to intervene, moving the steering wheel to the right and braking more forcefully. The collision was unavoidable with the third-party vehicle making contact with the front left bumper and the driver side rear passenger door of the May Mobility AV. The May Mobility AV was towed from the scene. May Mobility is reporting this crash under Request No. 1 of Standing General Order 2021-01. May Mobility may supplement or correct its reporting with additional information as it becomes available.",
+        "evidence": "ran the red light and proceeded into the intersection without slowing"
+      }
+    },
+    {
+      "field": "other_party_movement",
+      "label": "Other party movement",
+      "filed": "Proceeding Straight",
+      "model": "Changing Lanes",
+      "count": 7,
+      "example": {
+        "id": "a1ee03f07a03",
+        "report_id": "30413-15019",
+        "narrative": "On April [XXX], 2026, at 6:28 PM ET, a passenger car collided with a May Mobility Autonomous Vehicle (AV) operating in Atlanta, Georgia on [XXX] near [XXX]. The May Mobility AV was traveling east on [XXX] in the left lane. A passenger car traveling east on [XXX] in the right lane proceeded to change lanes from the right lane to the left lane. The May Mobility AV Operator began braking before a pedestrian crosswalk, which had an activated Rectangular Rapid Flashing Beacon and the presence of a pedestrian waiting to cross. After changing lanes, the passenger car failed to brake and the front of the passenger car made contact with the rear of the May Mobility AV. At the time of impact, the May Mobility AV was in manual mode. The May Mobility AV sustained a significant puncture in the rear, lower bumper with scratches, the passenger car sustained scratches on the front bumper. May Mobility is reporting this crash under Request No. 2 of Standing General Order 2021-01. May Mobility may supplement or correct its reporting with additional information as it may become available.",
+        "evidence": "proceeded to change lanes"
+      }
+    },
+    {
+      "field": "roadway_type",
+      "label": "Roadway type",
+      "filed": "Street",
+      "model": "Unknown",
+      "count": 6,
+      "example": {
+        "id": "98ed6c6eed8d",
+        "report_id": "30270-15636",
+        "narrative": "On June [XXX], 2026 at 6:01 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving a passenger of the Waymo AV on [XXX] near [XXX]. \n\nThe Waymo AV was travelling westbound on [XXX]. While the Waymo AV was in motion, a passenger seated in the rear right of the Waymo AV removed their seatbelt and opened the right rear passenger side door. The Waymo AV detected the opened door and began to slow in-lane. While the Waymo AV was slowing, the passenger seated in the right rear passenger seat exited the vehicle through the open door, placed their feet on the ground, and the rear right tire of the Waymo AV made contact with the Waymo AV passenger, who fell to the ground as the Waymo AV came to a stop. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The passenger of the Waymo AV was transported from the scene to a hospital for medical treatment with unknown injuries. A passenger in the Waymo AV was not belted at the time of the collision as they were exiting the vehicle.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because an individual involved was transported from the scene to a hospital for medical treatment. Waymo may supplement or correct its reporting with additional information as it may become available.",
+        "evidence": ""
+      }
+    },
+    {
+      "field": "other_party_movement",
+      "label": "Other party movement",
+      "filed": "Other, see Narrative",
+      "model": "Changing Lanes",
+      "count": 5,
+      "example": {
+        "id": "82fa3306dae4",
+        "report_id": "30270-15301",
+        "narrative": "On June [XXX], 2026 at 1:07 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was involved in a collision involving a motorcycle and an SUV on [XXX] at [XXX].  \n\nThe Waymo AV was stopped in the dedicated left turn lane for a red light on [XXX] at the intersection with [XXX]. While the Waymo AV remained stopped, a motorcycle traveling in the second from the right lane came to a stop adjacent to an SUV that was stopped in the rightmost lane. After both vehicles briefly remained stopped, the SUV and motorcycle began to proceed forward when the SUV changed lanes into the second from the right lane, towards the motorcycle. The motorcycle maneuvered left towards the dedicated left turn lane, and the SUV continued to change lanes across the second from the right lane, towards the motorcycle into the dedicated left turn lane. While the SUV continued to change lanes, the front right of the SUV made contact with the rear of the motorcycle, and the front left of the SUV made contact with the right side of a passenger car that was stopped behind the Waymo AV. As a result of this initial contact with the SUV, the motorcycle continued forward and the front of the motorcycle then made contact with the rear right of the Waymo AV. The SUV also continued forward, and the front left of the SUV then made contact with the rear right of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. All involved vehicles sustained damage, and the motorcyclist was transported to the hospital by ambulance with unknown injuries.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because an individual involved was transported from the scene to a hospital by ambulance. Waymo may supplement or correct its reporting with additional information as it may become available.",
+        "evidence": "The motorcycle maneuvered left towards the dedicated left turn lane"
+      }
+    },
+    {
+      "field": "other_party_movement",
+      "label": "Other party movement",
+      "filed": "Proceeding Straight",
+      "model": "Passing",
+      "count": 5,
+      "example": {
+        "id": "cb03f1ad23bf",
+        "report_id": "30270-15175",
+        "narrative": "On May [XXX], 2026 at 2:39 AM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in West Hollywood, California was in a collision involving an SUV on [XXX] near [XXX].\n\nThe Waymo AV was parked facing south at the west curb, partially in the bike lane and partially in the right lane, on [XXX] with its hazard lights activated for a passenger pickup. While the Waymo AV was parked, an SUV traveling southbound in the right lane on [XXX] passed the Waymo AV to the left, and the right side of the SUV made contact with the left side of the parked Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+        "evidence": "passed the Waymo AV to the left"
+      }
+    },
+    {
+      "field": "crash_partner",
+      "label": "Crash partner",
+      "filed": "Passenger Car",
+      "model": "Other, see Narrative",
+      "count": 3,
+      "example": {
+        "id": "e983d2428e73",
+        "report_id": "30291-16243",
+        "narrative": "On July [XXX], 2026 at approximately 940am CT in Houston, TX, a Nuro Prius in autonomous mode was stopped at a red light at the intersection of [XXX] and [XXX] when a third party vehicle rear-ended the Nuro Prius. No injuries were reported with both vehicles sustaining only minor damage. Air bags were not deployed and law enforcement was not involved.",
+        "evidence": "a third party vehicle rear-ended the Nuro Prius"
+      }
+    }
+  ],
   "items": [
-    {
-      "id": "84ba805a2ca7",
-      "report_id": "34952-14990",
-      "narrative": "On April [XXX], 2026, a Stack AV vehicle was traveling westbound on [XXX] near Edgewood, New Mexico, when a large object fell off of a third-party truck traveling directly ahead.ÃÂ  The object fell directly in the travel path of the Stack AV vehicle.ÃÂ  To avoid a collision with the object, the driver of the Stack AV vehicle disengaged the ADS and executed a lateral maneuver to the left.ÃÂ  During this evasive maneuver, the Stack AV vehicle made slight contact with another truck traveling in the adjacent left lane.ÃÂ  At the time of impact, the Sack AV vehicle was operating in manual mode.ÃÂ  No injuries were reported.ÃÂ  Both vehicles stopped at the scene to exchange information.ÃÂ  Law enforcement was notified by Stack AV and responded to the scene.",
-      "mismatches": [
-        "roadway_type",
-        "other_party_movement"
-      ],
-      "filed": {
-        "crash_partner": "Heavy Truck",
-        "roadway_type": "Highway / Freeway",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Heavy Truck",
-        "roadway_type": "not stated",
-        "other_party_movement": "not stated",
-        "injury_severity": "No Injured Reported"
-      }
-    },
-    {
-      "id": "cbd9647e9282",
-      "report_id": "31101-15189",
-      "narrative": "On May [XXX], 2026 at 2:43 PM, an AVRIDE autonomous vehicle(the \"AVRIDE AV\") was in a collision in Dallas, TX at the intersection of [XXX] and [XXX]. The AVRIDE AV was traveling northeastbound in the left lane on [XXX] in autonomous mode as it approached the green showing traffic light at the intersection with [XXX]. As the AVRIDE AV approached the intersection, an SUV traveling southeastbound on [XXX] also approached the intersection from the left of the AVRIDE AV. The SUV went against traffic rules and entered the intersection without stopping at the traffic light which was showing red. This maneuver by the SUV resulted in the front of the SUV making contact with the left side of the AVRIDE AV. Both vehicles sustained damage. No injuries were reported.",
-      "mismatches": [
-        "other_party_movement"
-      ],
-      "filed": {
-        "crash_partner": "SUV",
-        "roadway_type": "Intersection",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "SUV",
-        "roadway_type": "Intersection",
-        "other_party_movement": "not stated",
-        "injury_severity": "Property Damage. No Injured Reported"
-      }
-    },
-    {
-      "id": "3e5a70c3fb02",
-      "report_id": "31101-15148",
-      "narrative": "On May [XXX], 2026 at 9:05 PM, an AVRIDE autonomous vehicle(the \"AVRIDE AV\") was in a collision in Austin, TX at the intersection of East [XXX] and South [XXX]. The AVRIDE AV was traveling westbound in autonomous mode on [XXX] as it approached a traffic light at the intersection with South [XXX]. The traffic light showed green as the AVRIDE AV approached the intersection and began to proceed straight through the green traffic light. As the AVRIDE AV began to enter the intersection, an SUV traveling southbound on [XXX] also entered the intersection from the right of the AVRIDE AV. While entering the intersection, the SUV went against traffic rules and drove through a red light. This maneuver resulted in the left side of the SUV making contact with the front of the AVRIDE AV. Both vehicles sustained damage. No injuries were reported.",
-      "mismatches": [
-        "other_party_movement"
-      ],
-      "filed": {
-        "crash_partner": "SUV",
-        "roadway_type": "Intersection",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "SUV",
-        "roadway_type": "Intersection",
-        "other_party_movement": "not stated",
-        "injury_severity": "Property Damage. No Injured Reported"
-      }
-    },
-    {
-      "id": "d3eb45d2de67",
-      "report_id": "31101-15016",
-      "narrative": "On April [XXX], 2026 at 9:29 PM, an AVRIDE autonomous vehicle (the \"AVRIDE AV\") was involved in a collision in Dallas, Texas on [XXX] near [XXX]. The AVRIDE AV was traveling eastbound in the left lane on [XXX] in autonomous mode when it began to slow down and come to a stop while staying in the left lane. An SUV was traveling further behind the AVRIDE AV in the left lane and a pickup truck was traveling in the right lane alongside the SUV on [XXX]. As the SUV approached the AVRIDE AV, it moved to the right lane to go around the AVRIDE AV. This maneuver resulted in the right side of the SUV making contact with the left side of the pickup truck. Neither the SUV nor pickup truck made contact with the AVRIDE AV. The SUV and pickup truck sustained damage. The AVRIDE AV sustained no damage. No injuries were reported.",
-      "mismatches": [
-        "roadway_type"
-      ],
-      "filed": {
-        "crash_partner": "SUV",
-        "roadway_type": "Street",
-        "other_party_movement": "Changing Lanes",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "SUV",
-        "roadway_type": "not stated",
-        "other_party_movement": "Changing Lanes",
-        "injury_severity": "Property Damage. No Injured Reported"
-      }
-    },
     {
       "id": "088729e52313",
       "report_id": "31101-14926",
@@ -104,72 +131,11 @@
       }
     },
     {
-      "id": "d43235a5afcf",
-      "report_id": "31101-14925",
-      "narrative": "On April [XXX], 2026 at 12:21 PM, an AVRIDE autonomous vehicle (the \"AVRIDE AV\") was in a collision in Dallas, Texas on [XXX] West near [XXX]. The AVRIDE AV was traveling southbound on [XXX] in the left lane in autonomous mode when it approached a work truck parked ahead in the left lane. As the AVRIDE AV approached the work truck, it moved into the middle lane to its right to avoid the truck. After the AVRIDE AV successfully moved to the middle lane, a pickup truck in the right lane began to merge into the middle lane as well, cutting off the AVRIDE AV. This maneuver resulted in the left side of the pickup truck making contact with the right front of the AVRIDE AV. Both vehicles sustained damage. No injuries were reported.",
-      "mismatches": [
-        "roadway_type"
-      ],
-      "filed": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "Street",
-        "other_party_movement": "Changing Lanes",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "not stated",
-        "other_party_movement": "Changing Lanes",
-        "injury_severity": "Property Damage. No Injured Reported"
-      }
-    },
-    {
-      "id": "94a96105b92c",
-      "report_id": "31101-14923",
-      "narrative": "On April [XXX], 2026 at 12:16 PM, an AVRIDE autonomous vehicle (the \"AVRIDE AV\") was in a collision in Dallas, Texas at the [XXX] dropoff circle. The AVRIDE AV was traveling southbound in autonomous mode at slow speeds in the left lane as it entered the dropoff zone at the [XXX]. As the AVRIDE AV entered the dropoff zone, an SUV parked and unloading in the right lane had its rear left door open. The AVRIDE AV began to slowly proceed past the parked SUV when the right mirror of the AVRIDE AV made contact with the open rear door of the SUV. Both vehicles sustained minor cosmetic damage. No injuries were reported.",
-      "mismatches": [
-        "roadway_type"
-      ],
-      "filed": {
-        "crash_partner": "SUV",
-        "roadway_type": "Parking Lot",
-        "other_party_movement": "Parked",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "SUV",
-        "roadway_type": "not stated",
-        "other_party_movement": "Parked",
-        "injury_severity": "Property Damage. No Injured Reported"
-      }
-    },
-    {
-      "id": "2ebcb1f87498",
-      "report_id": "31101-14909",
-      "narrative": "On April [XXX], 2026 at 5:47 PM, an AVRIDE autonomous vehicle (the \"AVRIDE AV\") was in a collision in Dallas, Texas on [XXX] near [XXX]. The AVRIDE AV was traveling southwestbound on [XXX] in autonomous mode behind an SUV when the SUV came to an abrupt stop. The AVRIDE AV also stopped behind the SUV when the SUV then immediately began to reverse after stopping. This maneuver by the SUV resulted in the rear of the SUV making contact with the front of the stationary AVRIDE AV. Both vehicles sustained damage. No injuries were reported.",
-      "mismatches": [
-        "roadway_type"
-      ],
-      "filed": {
-        "crash_partner": "SUV",
-        "roadway_type": "Parking Lot",
-        "other_party_movement": "Backing",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "SUV",
-        "roadway_type": "not stated",
-        "other_party_movement": "Backing",
-        "injury_severity": "Property Damage. No Injured Reported"
-      }
-    },
-    {
       "id": "d8beba5609cd",
       "report_id": "31101-14899",
       "narrative": "On April [XXX], 2026 at 8:01 AM, an AVRIDE autonomous vehicle (the \"AVRIDE AV\") was in a collision in Austin, TX on [XXX] near West [XXX]. The AVRIDE AV was traveling southbound on [XXX] in autonomous mode as it approached a traffic light at the intersection with West [XXX]. A passenger car was traveling behind the AVRIDE AV as it approached the traffic light. As the AVRIDE AV approached the traffic light, the light changed from green, to yellow to red. The AVRIDE AV slowed down and stopped accordingly at the red light. The passenger car behind the AVRIDE AV attempted to slow down and stop at the red light but hydroplaned due to the roads being wet at the time. This caused the front of the passenger car to make contact with the rear of AVRIDE AV. Both vehicles sustained damage. No injuries were reported.",
       "mismatches": [
-        "roadway_type",
-        "other_party_movement"
+        "roadway_type"
       ],
       "filed": {
         "crash_partner": "Passenger Car",
@@ -189,8 +155,7 @@
       "report_id": "31101-14871",
       "narrative": "On April [XXX], 2026 at 3:27 PM, an AVRIDE autonomous vehicle(the \"AVRIDE AV\") was in a collision in Austin, TX on [XXX] near [XXX]. The AVRIDE AV was in autonomous mode facing northbound, fully stopped in a line of traffic waiting to turn left at the red light on [XXX]. The traffic light turned green momentarily, allowing a few cars to make the left hand turn, but turned red again by the time the AVRIDE AV approached the intersection. After the AVRIDE AV had fully stopped at the red light, a pickup truck approached the AVRIDE AV from behind but failed to stop. This maneuver resulted in the front of the pickup truck making contact with the AVRIDE AV. Both vehicles sustained damage. No injuries were reported.",
       "mismatches": [
-        "roadway_type",
-        "other_party_movement"
+        "roadway_type"
       ],
       "filed": {
         "crash_partner": "Pickup Truck",
@@ -206,32 +171,11 @@
       }
     },
     {
-      "id": "c8f021c79790",
-      "report_id": "31101-14818",
-      "narrative": "On April [XXX], 2026 at 1:44 PM, an AVRIDE autonomous vehicle(the \"AVRIDE AV\") was in a collision in Austin, TX on [XXX] near [XXX]. The AVRIDE AV was traveling westbound in the right lane in autonomous mode on [XXX] in when it approached a work truck which was blocking its path forward in the right lane. The AVRIDE AV signaled to switch to the left lane as it approached the stationary work truck blocking the right lane. While attempting to switch to the left lane, the left side of the AVRIDE AV made contact with the right side of a pickup truck which was driving straightforward in the left lane. Both vehicles sustained damage. No injuries were reported.",
-      "mismatches": [
-        "roadway_type"
-      ],
-      "filed": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "Street",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "not stated",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "Property Damage. No Injured Reported"
-      }
-    },
-    {
       "id": "7a1557c8c24a",
       "report_id": "31101-14813",
       "narrative": "On April [XXX], 2026 at 10:39 PM, an AVRIDE autonomous vehicle (the \"AVRIDE AV\") was in a collision in Dallas, TX at the intersection of [XXX] and [XXX]. The AVRIDE AV was traveling northbound on [XXX] in autonomous mode as it approached the traffic light at the intersection with [XXX]. As the AVRIDE AV entered the intersection with the yellow light showing, a passenger car began to enter the intersection at the same time from the right side of the AVRIDE AV from [XXX]. The passenger car went against traffic rules by driving through a red light as it entered the intersection. This maneuver resulted in the front of the passenger car making contact with the right side of the AVRIDE AV. Both vehicles sustained severe damage. Minor injuries were reported. Both vehicles required a tow. The AVRIDE AV had its right side airbags deploy.\nUpdate: At the time of the incident, there was initial concern about minor injuries for the Avride safety driver. After follow up, it has been reported that no injuries took place and no medical attention was needed as of May 21, 2026.",
       "mismatches": [
-        "roadway_type",
-        "other_party_movement"
+        "roadway_type"
       ],
       "filed": {
         "crash_partner": "Passenger Car",
@@ -247,73 +191,10 @@
       }
     },
     {
-      "id": "f46281ee7c8b",
-      "report_id": "31101-13612",
-      "narrative": "On December [XXX], 2025 at 5:11 PM, an AVRIDE autonomous vehicle (the \"AVRIDE AV\") was in a collision in Dallas, Texas on [XXX] near [XXX]. The AVRIDE AV was traveling southeastbound on [XXX] engaged in autonomous mode when it approached a pickup truck parked on the right curb with both doors open. As the AVRIDE AV proceeded to pass the parked pickup truck, the right side of the AVRIDE AV made contact with the open front left side door of the parked pickup truck. Following the collision, the AVRIDE AV pulled over to the side of the road. Both vehicles sustained minor damage. There were no reported injuries.\nThere was no indication of injury or request for medical attention at the scene. Avride received notification of injury from the other party's insurance company on January 16, 2026. Because of this, Avride made an update in the report changing the highest severity injury alleged as \"Minor W/O Hospitalization\". After following up with the other party's insurance claim, no information or documentation for the alleged injury was provided. Communication from the other party and their representation has stopped as of May 8, 2026. Because of this, we are updating the report again and changing the highest injury severity alleged to \"Property Damage. No Injury Reported.\"",
-      "mismatches": [
-        "roadway_type"
-      ],
-      "filed": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "Street",
-        "other_party_movement": "Parked",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "not stated",
-        "other_party_movement": "Parked",
-        "injury_severity": "Property Damage. No Injured Reported"
-      }
-    },
-    {
-      "id": "85331d32c66c",
-      "report_id": "31101-13612",
-      "narrative": "There was no indication of injury or request for medical attention at the scene. Avride received notification of injury from the other party's insurance company on January 16, 2026. Because of this, Avride made an update in the report changing the highest severity injury alleged as \"Minor W/O Hospitalization\". After following up with the other party's insurance claim, no information or documentation for the alleged injury was provided. Communication from the other party and their representation has stopped as of May 8, 2026. Because of this, we are updating the report and changing the highest injury severity alleged to \"Property Damage. No Injury Reported.\"\nOn December [XXX], 2025 at 5:11 PM, an AVRIDE autonomous vehicle (the \"AVRIDE AV\") was in a collision in Dallas, Texas on [XXX] near [XXX]. The AVRIDE AV was traveling southeastbound on [XXX] engaged in autonomous mode when it approached a pickup truck parked on the right curb with both doors open. As the AVRIDE AV proceeded to pass the parked pickup truck, the right side of the AVRIDE AV made contact with the open front left side door of the parked pickup truck. Following the collision, the AVRIDE AV pulled over to the side of the road. Both vehicles sustained minor damage. There were no reported injuries.",
-      "mismatches": [
-        "roadway_type"
-      ],
-      "filed": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "Street",
-        "other_party_movement": "Parked",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "not stated",
-        "other_party_movement": "Parked",
-        "injury_severity": "Property Damage. No Injured Reported"
-      }
-    },
-    {
-      "id": "89713ed9aa26",
-      "report_id": "30634-14991",
-      "narrative": "The subject vehicle was traveling at 64mph in the center eastbound lane on [XXX] near [XXX], having recently passed a pickup truck (vehicle #2) towing a trailer in the right lane.  A large piece of road debris in the right lane caused vehicle #2 to slow and veer onto the right shoulder.  A second piece of large road debris was observed by the subject vehicle's operator (\"VO\") in the center lane approximately 80 meters ahead of the subject vehicle.  \n\nThe VO took control of the truck and began to steer the subject vehicle to the right, but upon seeing vehicle #2 accelerating and re-entering the right lane from the shoulder, the VO instead steered the subject vehicle into the left lane. After passing the debris, the subject vehicle returned to the center lane and continued driving eastbound on the highway.\n\nA post-event review of the subject vehicle's cameras showed an ambulance with its emergency lights off (vehicle #3) was traveling in the left lane to the rear of the subject vehicle as the subject vehicle began entering the left lane.  When the subject vehicle entered the left lane, vehicle #3 maneuvered onto the left shoulder and came to a stop alongside the median.\n\nThe subject vehicle made no contact with vehicle #2 or vehicle #3. PlusAI has not been contacted by any road user with regard to this event.",
-      "mismatches": [
-        "crash_partner",
-        "other_party_movement",
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Other, see Narrative",
-        "roadway_type": "Highway / Freeway",
-        "other_party_movement": "Other, see Narrative",
-        "injury_severity": "Unknown"
-      },
-      "model": {
-        "crash_partner": "not stated",
-        "roadway_type": "Highway / Freeway",
-        "other_party_movement": "not stated",
-        "injury_severity": "not stated"
-      }
-    },
-    {
       "id": "684ac03465ca",
       "report_id": "30610-15065",
       "narrative": "An unoccupied Zoox autonomous vehicle was preparing to turn right from a hotel driveway onto southbound [XXX] in Las Vegas, and came to a gradual stop to yield to cross traffic when it was rear ended by a pickup (Vehicle 2) traveling directly behind. The Zoox vehicle honked at the approaching Vehicle 2, but Vehicle 2's driver failed to stop in time. Vehicle 2's driver then went around the stopped Zoox vehicle, briefly stopped in the right lane, activated their hazard lights, and then proceeded to leave the area. Upon inspection, the Zoox vehicle was found to have sustained moderate damage to its rear. No injuries were reported and police were not notified.",
       "mismatches": [
-        "roadway_type",
         "other_party_movement"
       ],
       "filed": {
@@ -327,26 +208,6 @@
         "roadway_type": "not stated",
         "other_party_movement": "Proceeding Straight",
         "injury_severity": "Property Damage. No Injured Reported"
-      }
-    },
-    {
-      "id": "38a2eed85e84",
-      "report_id": "30610-15064",
-      "narrative": "An occupied Zoox autonomous vehicle, gradually slowed to a stop behind traffic on southbound [XXX] past [XXX] in Las Vegas, when it was rear ended by a passenger vehicle (Vehicle 2) traveling directly behind. The Zoox vehicle honked at the approaching Vehicle 2, but its driver failed to stop in time. Vehicle 2's driver left the scene without exchanging information. The Zoox vehicle did not sustain any damage. No injuries were reported at that time. Police were notified.\n\nOne of the passengers later contacted Zoox support and stated, \"I began experiencing significant neck pain consistent with a possible soft tissue injury.\" The passenger has not provided any documentation to Zoox regarding their alleged injury.",
-      "mismatches": [
-        "roadway_type"
-      ],
-      "filed": {
-        "crash_partner": "Passenger Car",
-        "roadway_type": "Street",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "Minor W/O Hospitalization"
-      },
-      "model": {
-        "crash_partner": "Passenger Car",
-        "roadway_type": "not stated",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "Minor W/O Hospitalization"
       }
     },
     {
@@ -374,8 +235,7 @@
       "report_id": "30610-15062",
       "narrative": "An occupied Zoox autonomous vehicle traveling north on [XXX] was stopped for a signal at [XXX] in San Francisco, with a passenger vehicle (Vehicle 2) stopped directly behind it. As the light turned green, the Zoox vehicle began to proceed but stopped for traffic and was rear ended by Vehicle 2. Vehicle 2's driver immediately left the scene without exchanging information. Shortly after, the Zoox vehicle proceeded straight and pulled over in the right lane adjacent to the bike lane, and the passengers exited. One passenger reported feeling \"whiplash\" but declined medical treatment. The police were notified. The Zoox vehicle sustained minor rear-end damage.",
       "mismatches": [
-        "roadway_type",
-        "other_party_movement"
+        "roadway_type"
       ],
       "filed": {
         "crash_partner": "Passenger Car",
@@ -415,8 +275,6 @@
       "report_id": "30530-15027",
       "narrative": "At 14:08 CST on April [XXX], 2026 in Sheffield, Texas, an Aurora vehicle was traveling east on [XXX] at approximately 59 MPH while operating in autonomy. \n\nThe Aurora vehicle was traveling straight in the lane. Other vehicles were present, including a camper trailer which was adjacent to the Aurora vehicle.\n\nThe collision occurred when a loose awning from the adjacent camper trailer detached and struck the Aurora vehicle. Following the collision, the Aurora Driver pulled over to a safe location. The Aurora vehicle was driveable from the location. \n\nNo injuries were reported. The Aurora vehicle sustained damage.  \n\nAurora will supplement or modify its reporting should additional relevant information become available.",
       "mismatches": [
-        "roadway_type",
-        "other_party_movement",
         "injury_severity"
       ],
       "filed": {
@@ -437,9 +295,7 @@
       "report_id": "30413-15019",
       "narrative": "On April [XXX], 2026, at 6:28 PM ET, a passenger car collided with a May Mobility Autonomous Vehicle (AV) operating in Atlanta, Georgia on [XXX] near [XXX]. The May Mobility AV was traveling east on [XXX] in the left lane. A passenger car traveling east on [XXX] in the right lane proceeded to change lanes from the right lane to the left lane. The May Mobility AV Operator began braking before a pedestrian crosswalk, which had an activated Rectangular Rapid Flashing Beacon and the presence of a pedestrian waiting to cross. After changing lanes, the passenger car failed to brake and the front of the passenger car made contact with the rear of the May Mobility AV. At the time of impact, the May Mobility AV was in manual mode. The May Mobility AV sustained a significant puncture in the rear, lower bumper with scratches, the passenger car sustained scratches on the front bumper. May Mobility is reporting this crash under Request No. 2 of Standing General Order 2021-01. May Mobility may supplement or correct its reporting with additional information as it may become available.",
       "mismatches": [
-        "roadway_type",
-        "other_party_movement",
-        "injury_severity"
+        "other_party_movement"
       ],
       "filed": {
         "crash_partner": "Passenger Car",
@@ -459,8 +315,7 @@
       "report_id": "30413-14938",
       "narrative": "On April [XXX], 2026, at 1:59 pm EST, a third-party vehicle, John Deere UTV Crossover Gator Utility Vehicle, collided with a May Mobility Autonomous Vehicle (AV) in Atlanta, Georgia, at the intersection of [XXX] and [XXX]. The May Mobility AV was traveling south on [XXX] in Atlanta, Georgia approaching the intersection of [XXX] on a green traffic light, with its automated driving system engaged in autonomous mode. The third- party vehicle was traveling west on [XXX] approaching a red light at [XXX] when it ran the red light and proceeded into the intersection without slowing, making contact with the May Mobility AV. The May Mobility AV began to apply the brakes as the third- party vehicle started to run the red light. During the May Mobility AVâs braking, the telematics confirm that the Autonomous Vehicle Operator also started to intervene, moving the steering wheel to the right and braking more forcefully. The collision was unavoidable with the third-party vehicle making contact with the front left bumper and the driver side rear passenger door of the May Mobility AV. The May Mobility AV was towed from the scene. May Mobility is reporting this crash under Request No. 1 of Standing General Order 2021-01. May Mobility may supplement or correct its reporting with additional information as it becomes available.",
       "mismatches": [
-        "other_party_movement",
-        "injury_severity"
+        "other_party_movement"
       ],
       "filed": {
         "crash_partner": "Other, see Narrative",
@@ -476,34 +331,11 @@
       }
     },
     {
-      "id": "41f0579fb35e",
-      "report_id": "30270-15193",
-      "narrative": "On May [XXX], 2026 at 1:46 AM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving an SUV on [XXX] near [XXX].\n\nThe Waymo AV was traveling eastbound in the leftmost lane on [XXX] and an SUV was traveling behind the Waymo AV, partially in the second from the left lane and partially in the same lane as the Waymo AV, when the front of the SUV made contact with the rear of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage. The passenger in the Waymo AV alleged minor injuries.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "roadway_type",
-        "other_party_movement",
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "SUV",
-        "roadway_type": "Street",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "Minor W/O Hospitalization"
-      },
-      "model": {
-        "crash_partner": "SUV",
-        "roadway_type": "not stated",
-        "other_party_movement": "not stated",
-        "injury_severity": "not stated"
-      }
-    },
-    {
       "id": "d9910c3c5b84",
       "report_id": "30270-15192",
       "narrative": "On May [XXX], 2026 at 5:43 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving a passenger car on [XXX] near [XXX]. \n\nThe Waymo AV was traveling northeastbound in the second from the right lane on [XXX], slowing to yield to a queue of traffic ahead. While the Waymo AV was slowing, a passenger car traveling southeastbound on [XXX] proceeded straight to cross the intersection with [XXX]. As the passenger car approached the exit of the intersection, the front of the passenger car made contact with the left side of a second passenger car traveling northeastbound in the rightmost lane on [XXX]. As a result of the contact, the second passenger car rotated counterclockwise as it continued northeastbound, and while rotating, the front left side of the passenger car made contact with the front right side of an SUV stopped directly behind the stopped Waymo AV. The second passenger car continued northeastbound as the Waymo AV began to proceed forward, and the front right side of the second passenger car then made contact with the rear of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both passenger cars and the SUV sustained damage. The driver of the first passenger car alleged minor injuries and the driver of the second passenger car sedan alleged moderate injuries. \n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
       "mismatches": [
-        "roadway_type",
-        "other_party_movement"
+        "roadway_type"
       ],
       "filed": {
         "crash_partner": "Passenger Car",
@@ -523,9 +355,7 @@
       "report_id": "30270-15175",
       "narrative": "On May [XXX], 2026 at 2:39 AM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in West Hollywood, California was in a collision involving an SUV on [XXX] near [XXX].\n\nThe Waymo AV was parked facing south at the west curb, partially in the bike lane and partially in the right lane, on [XXX] with its hazard lights activated for a passenger pickup. While the Waymo AV was parked, an SUV traveling southbound in the right lane on [XXX] passed the Waymo AV to the left, and the right side of the SUV made contact with the left side of the parked Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
       "mismatches": [
-        "roadway_type",
-        "other_party_movement",
-        "injury_severity"
+        "other_party_movement"
       ],
       "filed": {
         "crash_partner": "SUV",
@@ -545,8 +375,7 @@
       "report_id": "30270-15174",
       "narrative": "On May [XXX], 2026 at 3:59 PM MT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Phoenix, Arizona was in a collision involving a pickup truck on [XXX] at [XXX].\n\nThe Waymo AV was traveling westbound in the second to the right lane on [XXX] and proceeding straight at a green light at the intersection with [XXX]. As the Waymo AV began to cross the intersection, a pickup truck traveling northbound in the designated right turn lane on [XXX]t proceeded to enter the intersection against a red light and began to maneuver to the left. The Waymo AV braked and maneuvered to the right as the pickup truck continued to proceed forward, and the front of the pickup truck made contact with the left side of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage. Two passengers in the Waymo AV were not belted at the time of the collision. Two passengers in the Waymo AV were transported to a hospital by an ambulance with moderate injuries.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because individuals involved were transported from the scene to a hospital for medical treatment and a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
       "mismatches": [
-        "other_party_movement",
-        "injury_severity"
+        "other_party_movement"
       ],
       "filed": {
         "crash_partner": "Pickup Truck",
@@ -562,34 +391,11 @@
       }
     },
     {
-      "id": "1e448c9f1c26",
-      "report_id": "30270-15173",
-      "narrative": "On May [XXX], 2026 at 3:04 PM MT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Scottsdale, Arizona was in a collision involving a passenger car on [XXX] near [XXX].\n\nThe Waymo AV was stopped facing west in the second lane from the right on [XXX] in a queue of traffic for a red light at the intersection with [XXX]. After the light turned green, the Waymo AV proceeded forward momentarily, then slowed to a stop to yield to a queue of traffic stopped directly in front of the Waymo AV. While the Waymo AV was stopped, a passenger car initially stopped behind the Waymo AV proceeded forward, and the front of the passenger car made contact with the rear of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage. The passenger in the Waymo AV alleged minor injuries.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "roadway_type",
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Passenger Car",
-        "roadway_type": "Street",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "Minor W/O Hospitalization"
-      },
-      "model": {
-        "crash_partner": "Passenger Car",
-        "roadway_type": "not stated",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "not stated"
-      }
-    },
-    {
       "id": "d0beb0cafa1f",
       "report_id": "30270-15172",
       "narrative": "On May [XXX], 2026 at 2:43 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving a bus on [XXX] near [XXX].\n\nThe Waymo AV was parked facing west at the north curb on [XXX], in the parking lane, with its hazard lights activated after a passenger dropoff. While the Waymo AV was parked, a bus traveling westbound on [XXX] passed the Waymo AV to the left, and the right side of the bus made contact with the left side of the parked Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
       "mismatches": [
-        "roadway_type",
-        "other_party_movement",
-        "injury_severity"
+        "other_party_movement"
       ],
       "filed": {
         "crash_partner": "Bus",
@@ -605,204 +411,12 @@
       }
     },
     {
-      "id": "241440d100a5",
-      "report_id": "30270-15160",
-      "narrative": "On May [XXX], 2026 at 7:57 AM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving a pickup truck on [XXX] near [XXX].\n\nThe Waymo AV was parked at the south curb facing east on [XXX] with its hazard lights activated for a passenger pickup. While the Waymo AV was parked, an SUV facing south on a driveway off [XXX] began reversing on to [XXX] and the rear left side of the SUV made contact with the rear right side of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "roadway_type",
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "SUV",
-        "roadway_type": "Street",
-        "other_party_movement": "Backing",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "SUV",
-        "roadway_type": "not stated",
-        "other_party_movement": "Backing",
-        "injury_severity": "not stated"
-      }
-    },
-    {
-      "id": "cd2c79c6318b",
-      "report_id": "30270-15159",
-      "narrative": "On May [XXX], 2026 at 7:30 AM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving a passenger car on [XXX] at [XXX].\n\nThe Waymo AV was traveling southbound on [XXX], proceeding through the intersection with [XXX] on a green light when it came to a stop for a queue of traffic within the crosswalk at the south side of the intersection, as the light turned red. A passenger car that was initially travelling behind the Waymo AV began to change lanes to the left of the Waymo AV, and the right side of the passenger car made contact with the rear left of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Passenger Car",
-        "roadway_type": "Intersection",
-        "other_party_movement": "Changing Lanes",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Passenger Car",
-        "roadway_type": "Intersection",
-        "other_party_movement": "Changing Lanes",
-        "injury_severity": "not stated"
-      }
-    },
-    {
-      "id": "d0f519877a9e",
-      "report_id": "30270-15158",
-      "narrative": "On May [XXX], 2026 at 8:48 AM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving a pickup truck on [XXX] near [XXX].\n\nThe Waymo AV was traveling westbound on [XXX] in the second from the left lane when it came to a stop in a queue of traffic for a red light at the intersection with [XXX]. Once the traffic light turned green and traffic ahead began to proceed, the Waymo AV activated its right turn signal, and began to change lanes to the third from the right lane once traffic in that lane cleared. As the Waymo AV began to change lanes, a pickup truck that was initially stopped behind the Waymo AV began to change lanes into the leftmost lane, attempting to pass the Waymo AV on the left. While the pickup truck was changing lanes, the Waymo AV came to a stop, partially in the center lane and partially in the rightmost lane. The pickup truck continued with the lane change, and the right side of the pickup truck made contact with the rear left side of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "roadway_type",
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "Street",
-        "other_party_movement": "Changing Lanes",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "not stated",
-        "other_party_movement": "Changing Lanes",
-        "injury_severity": "not stated"
-      }
-    },
-    {
-      "id": "f23cf34941cc",
-      "report_id": "30270-15157",
-      "narrative": "On May [XXX], 2026 at 2:34 AM MT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Mesa, Arizona was in a collision involving debris on [XXX] near [XXX].\n\nThe Waymo AV was traveling westbound in the left lane on [XXX] when the front left tire of the Waymo AV made contact with debris in the roadway. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "roadway_type",
-        "other_party_movement",
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Other, see Narrative",
-        "roadway_type": "Street",
-        "other_party_movement": "Other, see Narrative",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Other, see Narrative",
-        "roadway_type": "not stated",
-        "other_party_movement": "not stated",
-        "injury_severity": "not stated"
-      }
-    },
-    {
-      "id": "0a86dc684a79",
-      "report_id": "30270-15105",
-      "narrative": "On May [XXX], 2026 at 11:09 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving a pickup truck on [XXX] near [XXX]. \n\nThe Waymo AV was stopped facing west in the second to the right lane on [XXX] in a queue of traffic for a red light at the intersection with [XXX]. While the Waymo AV was stopped, a pickup truck traveling westbound in the second to the right lane on [XXX] approached the Waymo AV from behind, and the front of the pickup truck made contact with the rear of the stationary Waymo AV. As a result of this contact, the Waymo AV was pushed forward, and the front of the Waymo AV made contact with the rear of an SUV stopped directly in front of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. All three vehicles sustained damage. The passenger in the Waymo AV alleged minor injuries.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "roadway_type",
-        "other_party_movement",
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "Street",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "Minor W/O Hospitalization"
-      },
-      "model": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "not stated",
-        "other_party_movement": "not stated",
-        "injury_severity": "not stated"
-      }
-    },
-    {
-      "id": "62137d9915d0",
-      "report_id": "30270-15104",
-      "narrative": "On May [XX], 2026 at 10:43 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving a passenger car on [XXX] at [XXX].\n\nThe Waymo AV was traveling eastbound in the left lane on [XXX] and proceeding straight at a green light at the intersection with [XXX]. As the Waymo AV was crossing the intersection, a passenger car traveling westbound in the designated left turn lane on [XXX] initiated an unprotected left turn onto [XXX] and entered the Waymo AV's lane of travel. The Waymo AV braked and maneuvered to the right as the passenger car continued to turn left, and the front left side of the passenger car made contact with the left side of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Passenger Car",
-        "roadway_type": "Intersection",
-        "other_party_movement": "Making Left Turn",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Passenger Car",
-        "roadway_type": "Intersection",
-        "other_party_movement": "Making Left Turn",
-        "injury_severity": "not stated"
-      }
-    },
-    {
-      "id": "cf9028ee69c0",
-      "report_id": "30270-15102",
-      "narrative": "On May [XXX], 2026 at 9:29 AM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Culver City, California was in a collision involving a passenger car on [XXX] at [XXX]. \n\nThe Waymo AV was stopped facing northwest in the left lane on [XXX] in a queue of traffic for a red light at the intersection with [XXX]. After the light turned green and traffic ahead advanced, the Waymo AV proceeded forward and then began to slow before entering the intersection, as the vehicle ahead of the Waymo AV had stopped within the intersection. While the Waymo AV was slowing, a passenger car traveling northwestbound in the left lane on [XXX] approached the Waymo AV from behind, and the front of the passenger car made contact with the rear of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "roadway_type",
-        "other_party_movement",
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Passenger Car",
-        "roadway_type": "Street",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Passenger Car",
-        "roadway_type": "not stated",
-        "other_party_movement": "not stated",
-        "injury_severity": "not stated"
-      }
-    },
-    {
-      "id": "48a3bfffaf6b",
-      "report_id": "30270-15101",
-      "narrative": "On May [XXX], 2026 at 12:49 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving the pavement at the entrance to a parking lot at [XXX].\n\nThe Waymo AV was traveling southbound on [XXX] and turning left into the entrance to a parking lot at southeastbound [XXX]. As the Waymo AV was completing the left turn, the undercarriage of the Waymo AV made contact with the pavement. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage. \n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "other_party_movement",
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Other, see Narrative",
-        "roadway_type": "Parking Lot",
-        "other_party_movement": "Other, see Narrative",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Other, see Narrative",
-        "roadway_type": "Parking Lot",
-        "other_party_movement": "not stated",
-        "injury_severity": "not stated"
-      }
-    },
-    {
-      "id": "9133f4969cb2",
-      "report_id": "30270-15096",
-      "narrative": "On May [XXX], 2026 at 11:59 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving an SUV on [XXX] near [XXX].\n\nThe Waymo AV was traveling westbound on [XXX] with its right turn signal activated when it began to slow to yield to a passenger car stopped facing west near the north curb of [XXX] and partially in-lane. While the Waymo AV was slowing, an SUV traveling westbound on [XXX] at a high rate of speed approached the Waymo AV from behind, and the front of the SUV made contact with the rear of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage. The passenger in the Waymo AV was transported to a hospital by an ambulance with unknown injuries.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because an individual involved was transported from the scene to a hospital for medical treatment. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "roadway_type",
-        "other_party_movement",
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "SUV",
-        "roadway_type": "Street",
-        "other_party_movement": "Proceeding Straight",
-        "injury_severity": "Unknown"
-      },
-      "model": {
-        "crash_partner": "SUV",
-        "roadway_type": "not stated",
-        "other_party_movement": "not stated",
-        "injury_severity": "not stated"
-      }
-    },
-    {
       "id": "c7cf6a1d3b7d",
       "report_id": "30270-15095",
       "narrative": "On May [XXX], 2026 at 3:49 PM CT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Austin, Texas was in a collision involving a pickup truck with a flatbed trailer on [XXX] at [XXX]. \n\nThe Waymo AV was stopped facing east in the right-turn slip lane on [XXX] at the intersection with [XXX], with its right turn signal activated, behind a stopped pickup truck with a flatbed trailer. While the pickup truck remained stopped, the Waymo AV maneuvered to the right and attempted to pass the pickup truck to the right. As the Waymo AV was passing the pickup truck, the pickup truck proceeded forward and began to merge onto [XXX], and the rear right side of the flatbed trailer made contact with the left side of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
       "mismatches": [
         "roadway_type",
-        "other_party_movement",
-        "injury_severity"
+        "other_party_movement"
       ],
       "filed": {
         "crash_partner": "Pickup Truck",
@@ -818,34 +432,11 @@
       }
     },
     {
-      "id": "8ebc32a5fdac",
-      "report_id": "30270-15076",
-      "narrative": "On May [XXX], 2026 at 10:33 PM MT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Phoenix, Arizona was in a collision involving debris on [XXX] near [XXX].\n\nThe Waymo AV was traveling westbound on [XXX] when it approached debris in the roadway. The Waymo AV began to maneuver to the left of the debris, and the front right side of the Waymo AV made contact with the debris. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "roadway_type",
-        "other_party_movement",
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Other, see Narrative",
-        "roadway_type": "Street",
-        "other_party_movement": "Other, see Narrative",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Other, see Narrative",
-        "roadway_type": "not stated",
-        "other_party_movement": "not stated",
-        "injury_severity": "not stated"
-      }
-    },
-    {
       "id": "f06710958ae0",
       "report_id": "30270-15075",
       "narrative": "On May [XXX], 2026 at 6:19 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Menlo Park, California was in a collision involving an SUV on [XXX] near [XXX]. \n\nThe Waymo AV was stopped facing southeast in the third to the right lane on [XXX] in a queue of traffic for a red light at the intersection with [XXX]. While the Waymo AV was stopped, an SUV traveling southeastbound in the left lane on [XXX] approached the Waymo AV from behind and began maneuvering to the left to enter the adjacent designated left turn lane. The SUV slowed to a stop in close proximity to the Waymo AV, and the Waymo AV proceeded forward momentarily and came to a stop to yield to the queue of traffic. While the Waymo AV was stopped, the SUV proceeded forward to continue changing lanes to the left, and the front right side of the SUV made contact with the rear left side of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
       "mismatches": [
-        "roadway_type",
-        "injury_severity"
+        "roadway_type"
       ],
       "filed": {
         "crash_partner": "SUV",
@@ -857,47 +448,6 @@
         "crash_partner": "SUV",
         "roadway_type": "Intersection",
         "other_party_movement": "Changing Lanes",
-        "injury_severity": "not stated"
-      }
-    },
-    {
-      "id": "ebeca01505d1",
-      "report_id": "30270-15073",
-      "narrative": "On May [XXX], 2026 at 2:54 PM ET a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Atlanta, Georgia was in a collision involving a pickup truck on [XXX] at [XXX].\n\nThe Waymo AV was stopped facing north on [XXX] for a stop sign at the intersection with [XXX]. As cross traffic on [XXX] cleared, a pickup truck traveling eastbound in the designated left turn lane on [XXX] proceeded to turn left onto [XXX]. As the pickup truck was completing its left turn, the Waymo AV proceeded into the intersection to continue straight, and the pickup truck came to a stop in-lane. As the Waymo AV slowed to a stop to yield to the pickup truck, the pickup truck began to reverse and the rear right side of the pickup truck made contact with the front left side of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "Intersection",
-        "other_party_movement": "Backing",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "Intersection",
-        "other_party_movement": "Backing",
-        "injury_severity": "not stated"
-      }
-    },
-    {
-      "id": "fdcaa38f6885",
-      "report_id": "30270-15071",
-      "narrative": "On May [XXX], 2026 at 10:15 AM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving an SUV on [XXX] near [XXX].\n\nThe Waymo AV was stopped facing west in the leftmost lane on [XXX] to yield to an SUV stopped near the south curb, partially in the leftmost lane and partially in the passenger loading zone. After traffic in the adjacent right lane cleared, the Waymo AV proceeded to pass the SUV to the right and maneuver back into the leftmost lane. As the Waymo AV proceeded forward in the leftmost lane, a second SUV, initially stopped in the passenger loading zone, departed to the right and entered the Waymo AV's lane of travel. The Waymo AV maneuvered to the right as the second SUV continued forward, and the front right side of the second SUV made contact with the rear left side of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "roadway_type",
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "SUV",
-        "roadway_type": "Street",
-        "other_party_movement": "Entering Traffic",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "SUV",
-        "roadway_type": "not stated",
-        "other_party_movement": "Entering Traffic",
         "injury_severity": "not stated"
       }
     },
@@ -906,8 +456,7 @@
       "report_id": "30270-15070",
       "narrative": "On May [XXX], 2026 at 6:44 AM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving a pickup truck on [XXX] near {XXX}.\n\nThe Waymo AV was traveling southbound in the right lane on {XXX] in autonomous mode when it began to slow for a queue of traffic stopped for a red light at the intersection with [XXX]. As the Waymo AV was slowing, the Waymo AV transitioned to manual mode and the test driver maneuvered to the right and accelerated forward. As the test driver maneuvered the Waymo AV to pass to the right of a pickup truck that was stopped facing south in the right lane in the queue of traffic ahead, the front left side of the Waymo AV made contact with the rear right side of the pickup truck, the front of the Waymo AV made contact with the west curb of {XXX], and the front right side of the Waymo AV made contact with a street light pole near the curb. At the time of the impact, the Waymo AV's Level 4 ADS was not engaged and a test driver was operating the Waymo AV in manual mode. Both vehicles sustained damage. The test driver of the Waymo AV was transported to a hospital by an ambulance with moderate injuries. \n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because an individual involved was transported from the scene to a hospital for medical treatment. Waymo may supplement or correct its reporting with additional information as it may become available.",
       "mismatches": [
-        "roadway_type",
-        "injury_severity"
+        "roadway_type"
       ],
       "filed": {
         "crash_partner": "Pickup Truck",
@@ -923,32 +472,11 @@
       }
     },
     {
-      "id": "246a869440ff",
-      "report_id": "30270-15068",
-      "narrative": "On May [XXX], 2026 at 2:29 AM CT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Austin, Texas was in a collision involving a pickup truck in a parking lot at [XXX].\n\nThe Waymo AV was traveling southeastbound in a parking lot at [XXX], when it slowed to a stop to yield to a pickup truck that was traveling northwestbound and to the left of the Waymo AV. While the Waymo AV was stopped, the pickup truck came to a stop adjacent to the Waymo AV, and the Waymo AV activated its hazard lights for a passenger dropoff. The pickup truck proceeded to pass the Waymo AV to the left, and the rear left side of the pickup truck made contact with the rear left side of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "Parking Lot",
-        "other_party_movement": "Passing",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Pickup Truck",
-        "roadway_type": "Parking Lot",
-        "other_party_movement": "Passing",
-        "injury_severity": "not stated"
-      }
-    },
-    {
       "id": "b72c567bed85",
       "report_id": "30270-15067",
       "narrative": "On May [XXX], 2026 at 5:53 AM ET a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Atlanta, Georgia was in a collision involving a pickup truck on [XXX] at [XXX].\n\nThe Waymo AV was traveling westbound in the designated right turn lane on [XXX] with its right turn signal activated when it slowed to a stop for a red light at the intersection with [XXX]. While the Waymo AV was stopped, a pickup truck traveling westbound in the designated right turn lane on [XXX] approached the Waymo AV from behind, and the front of the pickup truck made contact with the rear of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
       "mismatches": [
-        "roadway_type",
-        "injury_severity"
+        "roadway_type"
       ],
       "filed": {
         "crash_partner": "Pickup Truck",
@@ -964,71 +492,51 @@
       }
     },
     {
-      "id": "a95eefb3dcca",
-      "report_id": "30270-15025",
-      "narrative": "On May [XXX], 2026 at 8:00 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving a bus on [XXX] at [XXX]. \n\nThe Waymo AV was traveling southwestbound in the left lane on [XXX] and proceeding straight at the intersection with [XXX] when the Waymo AV slowed to a stop within the intersection to yield to bicyclists traveling southeastbound on [XXX] and crossing into the Waymo AV's lane of travel.While the Waymo AV was stopped and the bicyclists proceeded across the Waymo AV's lane of travel, a bus traveling northeastbound in the left lane on [XXX], with its left signal activated for a left turn onto [XXX], began to pass the Waymo AV to the left, maneuvered to the left momentarily, and then proceeded to continue straight on [XXX], and the rear left side of the bus made contact with the rear left side of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
-      "mismatches": [
-        "injury_severity"
-      ],
-      "filed": {
-        "crash_partner": "Bus",
-        "roadway_type": "Intersection",
-        "other_party_movement": "Passing",
-        "injury_severity": "Property Damage. No Injured Reported"
-      },
-      "model": {
-        "crash_partner": "Bus",
-        "roadway_type": "Intersection",
-        "other_party_movement": "Passing",
-        "injury_severity": "not stated"
-      }
-    },
-    {
-      "id": "95f8c1ef83e4",
-      "report_id": "30270-15024",
-      "narrative": "On May [XXX], 2026 at 3:20 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving a passenger car on [XXX] near [XXX].\n\nThe Waymo AV was traveling southbound in the left lane on [XXX] when a pickup truck traveling northbound in the right lane on [XXX] maneuvered to the left lane, adjacent to the Waymo AV's lane of travel, and the Waymo AV braked to yield to the pickup truck. At the same time, a passenger car traveling southbound in the right lane on [XXX] began to change lanes to the adjacent left lane behind the Waymo AV, and the front left side of the passenger car made contact with the rear right side of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "id": "3714de1eec57",
+      "report_id": "30270-15020",
+      "narrative": "On May [XXX], 2026 at 6:29 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Redwood City, California was in a collision involving a passenger car on [XXX] near [XXX].\n\nThe Waymo AV was stopped facing west in the designated left turn lane on [XXX] in a queue of traffic for a red light at the intersection with [XXX]. While the Waymo AV was stopped, a passenger car that was stopped facing west in front of the Waymo AV rolled back and the rear of the passenger car made contact with the front of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
       "mismatches": [
         "roadway_type",
-        "injury_severity"
+        "other_party_movement"
       ],
       "filed": {
         "crash_partner": "Passenger Car",
         "roadway_type": "Street",
-        "other_party_movement": "Changing Lanes",
+        "other_party_movement": "Other, see Narrative",
         "injury_severity": "Property Damage. No Injured Reported"
       },
       "model": {
         "crash_partner": "Passenger Car",
-        "roadway_type": "not stated",
-        "other_party_movement": "Changing Lanes",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Backing",
         "injury_severity": "not stated"
       }
     },
     {
-      "id": "835eed515403",
-      "report_id": "30270-15023",
-      "narrative": "On May [XXX], 2026 at 6:51 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving an SUV on [XXX] at [XXX]. \n\nThe Waymo AV was stopped facing east in the second from the right lane on [XXX] in a queue of stop-and-go traffic. While the Waymo AV was stopped, an SUV that was initially stopped directly behind the Waymo AV proceeded to change lanes and pass the Waymo AV to the left, and the right side of the SUV made contact with the rear left of the stopped Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage. \n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "id": "e2ee64114153",
+      "report_id": "30270-15011",
+      "narrative": "On May [XXX], 2026 at 9:17 AM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving a heavy truck on [XXX] at [XXX].\n\nThe Waymo AV was stopped facing south on [XXX] for a red light at the intersection with [XXX] when a heavy truck traveling westbound in the left lane on [XXX] proceeded to make a wide right onto [XXX]. While the Waymo AV was stopped, the heavy truck continued to turn right by crossing the double yellow center line and entering the opposing lane of travel, and the left side of the heavy truck trailer made contact with the rear left side of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
       "mismatches": [
         "roadway_type",
-        "injury_severity"
+        "other_party_movement"
       ],
       "filed": {
-        "crash_partner": "SUV",
-        "roadway_type": "Intersection",
-        "other_party_movement": "Changing Lanes",
+        "crash_partner": "Heavy Truck",
+        "roadway_type": "Street",
+        "other_party_movement": "Making Right Turn",
         "injury_severity": "Property Damage. No Injured Reported"
       },
       "model": {
-        "crash_partner": "SUV",
-        "roadway_type": "not stated",
-        "other_party_movement": "Changing Lanes",
+        "crash_partner": "Heavy Truck",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Crossing into Opposing Lane",
         "injury_severity": "not stated"
       }
     },
     {
-      "id": "78375892c4a8",
-      "report_id": "30270-15022",
-      "narrative": "On May [XXX], 2026 at 12:43 PM MT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Tempe, Arizona was in a collision involving a passenger car on [XXX] near [XXX].\n\nThe Waymo AV was traveling eastbound in the rightmost lane on [XXX] with its right turn signal activated when it began to slow to turn right into a parking lot at [XXX]. As the Waymo AV initiated the right turn, a passenger car traveling eastbound in the rightmost lane on [XXX] approached the Waymo AV from behind, and the front of the passenger car made contact with the rear of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage. A passenger in the passenger car was transported to a hospital by an ambulance with unknown injuries.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because an individual involved was transported from the scene to a hospital for medical treatment. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "id": "331b7511f9d2",
+      "report_id": "30270-15009",
+      "narrative": "On May [XXX], 2026 at 10:47 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving a passenger car on [XXX] near [XXX].\n\nThe Waymo AV was stopped facing northeast on the right-turn slip lane for [XXX] for a stop sign at the intersection with [XXX]. While the Waymo AV was stopped, a passenger car traveling behind the Waymo AV approached the Waymo AV from behind and the front of the passenger car made contact with the rear of the stationary Waymo AV. At the time of the impact, the Waymo AV' Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
       "mismatches": [
         "roadway_type"
       ],
@@ -1036,13 +544,579 @@
         "crash_partner": "Passenger Car",
         "roadway_type": "Street",
         "other_party_movement": "Proceeding Straight",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "1514daadc5c7",
+      "report_id": "30270-14986",
+      "narrative": "On May [XXX], 2026 at 8:37 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Santa Monica, California was in a collision involving multiple vehicles on [XXX] near [XXX]. \n\nThe Waymo AV was stopped facing southeast in the left lane on [XXX] in a queue of traffic for a red light at the intersection with [XXX]. Behind the Waymo AV, in the same lane of traffic, were three consecutive SUVs. All three SUVs behind the Waymo AV were initially also stopped in the traffic queue until the rear-most of the three SUVs proceeded forward. The rearmost SUV contacted the SUV in front of it, pushing the second SUV forward into the SUV behind the Waymo AV. The SUV behind the Waymo AV then made contact with the rear of the stationary Waymo AV, and as a result of this contact, the front of the Waymo AV made contact with a passenger car stopped directly in front of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. All five vehicles sustained damage. The passenger in the Waymo AV was transported to a hospital by an ambulance with unknown injuries. \n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because an individual involved was transported from the scene to a hospital for medical treatment. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "crash_partner",
+        "roadway_type"
+      ],
+      "filed": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Street",
+        "other_party_movement": "Other, see Narrative",
+        "injury_severity": "Minor W/ Hospitalization"
+      },
+      "model": {
+        "crash_partner": "SUV",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Other, see Narrative",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "556599bf166c",
+      "report_id": "30270-14980",
+      "narrative": "On May [XXX], 2026 at 3:08 AM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving a passenger car on [XXX] near [XXX].\n\nThe Waymo AV was traveling northbound on [XXX] when it began to slow for a red light at the intersection with [XXX]. While the Waymo AV was slowing, a passenger car traveling northbound on [XXX] on the double yellow lane lines, partially on northbound [XXX] and partially on southbound [XXX], approached the Waymo AV from behind. The passenger car continued proceeding forward, and the front right side of the passenger car made contact with the rear left side of the Waymo AV, and as a result of this contact, the passenger car flipped and landed upside down on southbound [XXX]. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage. The passenger of the Waymo AV alleged minor injuries. \n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "other_party_movement"
+      ],
+      "filed": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Street",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "Minor W/O Hospitalization"
+      },
+      "model": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "not stated",
+        "other_party_movement": "Crossing into Opposing Lane",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "0f7e9fb54c57",
+      "report_id": "30270-14979",
+      "narrative": "On May [XXX], 2026 at 3:16 PM CT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Houston, Texas was in a collision involving a passenger car on [XXX] at [XXX].\n\nThe Waymo AV was traveling northwestbound in the second from the right lane on [XXX] in autonomous mode and approaching a green light at the intersection with [XXX]. As the Waymo AV entered the intersection, a passenger car traveling southwestbound on [XXX] in the second from the left lane proceeded to enter the intersection against a red light. The Waymo AV began to slow and brake, and the test driver of the Waymo AV transitioned the Waymo AV to manual mode and continued to brake, as the passenger car continued forward, and the front left side of the passenger car made contact with the front of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was not engaged and a test driver was operating the Waymo AV in manual mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "other_party_movement"
+      ],
+      "filed": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Entering Traffic",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "051bd1709b21",
+      "report_id": "30270-14978",
+      "narrative": "On May [XXX], 2026 at 2:20 PM ET a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Miami, Florida was in a collision involving an SUV on [XXX] near [XXX]. \n\nThe Waymo AV was traveling southbound in the left lane on [XXX] when an SUV facing west, and stopped at the stop sign at the intersection of [XXX] and [XXX], initiated a left turn onto southbound [XXX]. The Waymo AV began to slow and maneuver to the right as the SUV continued turning left and entered the Waymo AV's lane of travel, and the front right side of the SUV made contact with the front left side of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "roadway_type"
+      ],
+      "filed": {
+        "crash_partner": "SUV",
+        "roadway_type": "Street",
+        "other_party_movement": "Making Left Turn",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "SUV",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Making Left Turn",
+        "injury_severity": "Property Damage. No Injured Reported"
+      }
+    },
+    {
+      "id": "8ce5b49c1699",
+      "report_id": "30270-14977",
+      "narrative": "On May [XXX], 2026 at 10:01 AM CT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Austin, Texas was in a collision involving a passenger car on [XXX] at [XXX].\n\nThe Waymo AV was traveling westbound on [XXX] in the rightmost lane when it approached the intersection with [XXX], where police officers were directing traffic. The Waymo AV came to a stop and, after cross traffic cleared, proceeded into the intersection. A passenger car traveling southbound on [XXX] in the leftmost lane entered the intersection per the direction of one of the police officers. The Waymo AV slowed to yield to the passenger car and the front left side of the passenger car made contact with the front right side of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "other_party_movement"
+      ],
+      "filed": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Other, see Narrative",
+        "injury_severity": "Property Damage. No Injured Reported"
+      }
+    },
+    {
+      "id": "2d60f884b51b",
+      "report_id": "30270-14976",
+      "narrative": "On May [XXX], 2026 at 9:14 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving a pothole on [XXX] near [XXX].\n\nThe Waymo AV was traveling northwestbound on [XXX] when it began to slow for a stop sign at the intersection with [XXX]. While the Waymo AV was slowing, the front left tire entered a pothole in the road and deflated. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "crash_partner"
+      ],
+      "filed": {
+        "crash_partner": "Other Fixed Object",
+        "roadway_type": "Street",
+        "other_party_movement": "not stated",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Other, see Narrative",
+        "roadway_type": "not stated",
+        "other_party_movement": "not stated",
+        "injury_severity": "Property Damage. No Injured Reported"
+      }
+    },
+    {
+      "id": "d36a3910487b",
+      "report_id": "30270-14944",
+      "narrative": "On April [XXX], 2026 at 4:37 PM ET a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Atlanta, Georgia was in a collision involving a pickup truck on [XXX] at [XXX].\n\nThe Waymo AV was traveling eastbound on [XXX] when it slowed to a stop for a stop sign at the intersection with [XXX]. As the Waymo AV began to proceed forward, a passenger car traveling eastbound on [XXX] made contact with the rear of a pickup truck that was traveling eastbound directly behind the Waymo AV. The pickup truck was pushed forward, and the front of the pickup truck made contact with the rear of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. All three vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 2 of Standing General Order 2021-01. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "roadway_type",
+        "other_party_movement"
+      ],
+      "filed": {
+        "crash_partner": "Pickup Truck",
+        "roadway_type": "Street",
+        "other_party_movement": "Stopped",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Pickup Truck",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "Property Damage. No Injured Reported"
+      }
+    },
+    {
+      "id": "bdff96d3e545",
+      "report_id": "30270-14890",
+      "narrative": "On May [XXX], 2026 at 9:51 PM MT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Phoenix, Arizona was in a collision involving an SUV on [XXX] near [XXX].\n\nThe Waymo AV was traveling northbound on [XXX] when it slowed to a stop in-lane to yield to a second Waymo AV parked facing north near the east curb on [XXX] and partially in-lane with its hazard lights activated (\"Parked Waymo AV\"). After stopping momentarily, the Waymo AV proceeded forward to pass the Parked Waymo AV on the left and a passenger in the Parked Waymo AV opened the rear left door of the Parked Waymo AV. The front right side of the Waymo AV made contact with the open rear left door of the Parked Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "crash_partner"
+      ],
+      "filed": {
+        "crash_partner": "SUV",
+        "roadway_type": "Street",
+        "other_party_movement": "Parked",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Other, see Narrative",
+        "roadway_type": "not stated",
+        "other_party_movement": "Parked",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "d379df409c8b",
+      "report_id": "30270-14845",
+      "narrative": "On April [XXX], 2026 at 3:19 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving a passenger car on [XXX] near [XXX]. \n\nThe Waymo AV was stopped facing north in the leftmost lane on [XXX] in a queue of traffic at the intersection with [XXX]. A passenger car that was stopped directly in front of the Waymo AV proceeded forward momentarily before stopping, and the Waymo AV proceeded forward momentarily before slowing to a stop to yield to the stopped passenger car. While the Waymo AV was stopped, a second passenger car initially stopped behind the Waymo AV proceeded forward, and the front of the second passenger car made contact with the rear of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 2 of Standing General Order 2021-01. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "roadway_type"
+      ],
+      "filed": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Street",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "b69fc81790fd",
+      "report_id": "30270-14829",
+      "narrative": "On April [XXX], 2026 at 9:56 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving an SUV on [XXX] near [XXX]. \n\nThe Waymo AV was parked at the east curb facing north on [XXX] with its hazard lights activated for a passenger dropoff. While the Waymo AV was parked, an SUV traveling westbound on [XXX] turned right onto [XXX] and approached the Waymo AV from behind, and the front right side of the SUV made contact with the rear left side of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage. A passenger in the Waymo AV was transported to a hospital by an ambulance with unknown injuries.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because an individual involved was transported from the scene to a hospital for medical treatment. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "injury_severity"
+      ],
+      "filed": {
+        "crash_partner": "SUV",
+        "roadway_type": "Street",
+        "other_party_movement": "Making Right Turn",
+        "injury_severity": "Minor W/O Hospitalization"
+      },
+      "model": {
+        "crash_partner": "SUV",
+        "roadway_type": "not stated",
+        "other_party_movement": "Making Right Turn",
+        "injury_severity": "Unknown"
+      }
+    },
+    {
+      "id": "17c66ecc41ce",
+      "report_id": "30270-14828",
+      "narrative": "On April [XXX], 2026 at 12:44 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving a fallen utility line on [XXX] near [XXX].\n\nThe Waymo AV was traveling southbound on [XXX] when it slowed and maneuvered to the left for a fallen utility line hanging in the travel lane. As the Waymo AV proceeded forward, the front of the Waymo AV made contact with the fallen utility line. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "crash_partner"
+      ],
+      "filed": {
+        "crash_partner": "Other Fixed Object",
+        "roadway_type": "Street",
+        "other_party_movement": "not stated",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Other, see Narrative",
+        "roadway_type": "not stated",
+        "other_party_movement": "not stated",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "32b92178356a",
+      "report_id": "30270-14811",
+      "narrative": "On April [XXX], 2026 at 2:03 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving a pickup truck on [XXX] at [XXX]. \n\nThe Waymo AV was stopped facing southeast in the designated left turn lane on [XXX] for a red left arrow light at the intersection with [XXX], with its left turn signal activated. While the Waymo AV remained stopped for the red left arrow, a pickup truck that was initially stopped behind the Waymo AV proceeded forward and approached the Waymo AV from behind. The front of the pickup truck then made contact with the rear of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. The Waymo AV sustained damage.\n\nWaymo is reporting this crash under Request No. 2 of Standing General Order 2021-01. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "roadway_type"
+      ],
+      "filed": {
+        "crash_partner": "Pickup Truck",
+        "roadway_type": "Street",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Pickup Truck",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "641008b667da",
+      "report_id": "30270-14738",
+      "narrative": "On April [XXX], 2026 at 2:13 AM CT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Austin, Texas was in a collision involving an SUV in a parking lot at [XXX].\n\nThe Waymo AV was parked facing northeast in a parking lot at [XXX], with its hazard lights activated for a passenger pickup, when an SUV initially stopped behind the Waymo AV maneuvered to the left and came to a stop to the left of the Waymo AV. As the passenger entered the Waymo AV, the SUV began to reverse and came to a stop behind and to the left of the Waymo AV in close proximity. The SUV then proceeded forward, and the front right side of the SUV made contact with the rear left side of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage. The passenger in the Waymo AV was not belted at the time of collision as they were in the process of entering the vehicle.\n\nWaymo is reporting this crash under Request No. 2 of Standing General Order 2021-01. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "other_party_movement"
+      ],
+      "filed": {
+        "crash_partner": "SUV",
+        "roadway_type": "Parking Lot",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "SUV",
+        "roadway_type": "Parking Lot",
+        "other_party_movement": "Parking Maneuver",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "e0e543493c64",
+      "report_id": "31101-15100",
+      "narrative": "On May [XXX], 2026 at 12:43 PM, an AVRIDE autonomous vehicle was involved in a collision in Dallas, Texas, on [XXX] near [XXX]. The AVRIDE vehicle was traveling southwest in autonomous mode when it began merging from the right lane into the middle lane. At the same time, a passenger car in the left lane also began entering the middle lane without signaling. To avoid a collision, the AVRIDE vehicle stopped. The vehicles behind it, including another AVRIDE autonomous vehicle and two passenger cars, also stopped. During the stop, one passenger car made contact with the rear of the second AVRIDE vehicle. The passenger car that entered the middle lane left the scene. The second AVRIDE vehicle was damaged. No other vehicles were damaged, and no injuries were reported.",
+      "mismatches": [
+        "other_party_movement",
+        "injury_severity"
+      ],
+      "filed": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Street",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "not stated",
+        "other_party_movement": "Stopped",
+        "injury_severity": "No Injured Reported"
+      }
+    },
+    {
+      "id": "01bdd46fcaff",
+      "report_id": "31101-15099",
+      "narrative": "On May [XXX], 2026 at 3:42 PM, an AVRIDE autonomous vehicle (the \"AVRIDE AV\") was adjacent to a collision in Dallas, TX on [XXX] near [XXX]. The AVRIDE AV was traveling southbound in the center lane in autonomous mode on [XXX] when it stopped at a red traffic signal at the intersection of [XXX] and [XXX]. The AVRIDE AV was being followed by a passenger car. When the traffic signal turned green, the AVRIDE AV proceeded into the intersection and activated its left turn signal to initiate a lane change. The trailing passenger car also moved into the left lane and attempted to overtake the AVRIDE AV while the AVRIDE AV was moving left. Upon detecting the presence of the passenger car, the AVRIDE AV applied its brakes to avoid a collision. The passenger car also braked. A box truck traveling behind the passenger car was unable to stop in time and struck the rear of the passenger car. The passenger car and the box truck sustained damage. No injuries were reported.",
+      "mismatches": [
+        "roadway_type",
+        "other_party_movement",
+        "injury_severity"
+      ],
+      "filed": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Street",
+        "other_party_movement": "Changing Lanes",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Passing",
+        "injury_severity": "No Injured Reported"
+      }
+    },
+    {
+      "id": "13307dc4348c",
+      "report_id": "31101-14898",
+      "narrative": "On May [XXX], 2026 at 8:46 AM, an AVRIDE autonomous vehicle (the \"AVRIDE AV\") was in a collision in Dallas, TX on [XXX] near [XXX]. The AVRIDE AV was traveling northbound on [XXX] in autonomous mode as it approached a hotel parking lot exit located on the left side of the roadway. As the AVRIDE AV proceeded straight ahead in the left lane, a pickup truck exiting the parking lot began making a left turn onto [XXX] without stopping as required before entering the roadway. This maneuver resulted in the right front of the pickup truck making contact with the left front of the AVRIDE AV. Both vehicles sustained damage. No injuries were reported.",
+      "mismatches": [
+        "other_party_movement"
+      ],
+      "filed": {
+        "crash_partner": "Pickup Truck",
+        "roadway_type": "Street",
+        "other_party_movement": "Entering Traffic",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Pickup Truck",
+        "roadway_type": "not stated",
+        "other_party_movement": "Making Left Turn",
+        "injury_severity": "Property Damage. No Injured Reported"
+      }
+    },
+    {
+      "id": "da769d184e49",
+      "report_id": "30610-15638",
+      "narrative": "A Zoox vehicle, operating in autonomous mode, was heading south on [XXX] in Las Vegas, slowing down for a red traffic signal at the [XXX] intersection, when a trailing passenger car (Vehicle 2) rear-ended it. The Zoox vehicle operator subsequently disengaged from autonomy. The collision resulted in moderate rear-end damage to the Zoox vehicle and major frontal damage to Vehicle 2, including frontal airbag deployment. Both vehicles were towed from the scene. Police responded to the scene, and no injuries were reported.",
+      "mismatches": [
+        "roadway_type"
+      ],
+      "filed": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Street",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Intersection",
+        "other_party_movement": "not stated",
+        "injury_severity": "Property Damage. No Injured Reported"
+      }
+    },
+    {
+      "id": "21285a6340c1",
+      "report_id": "30610-15628",
+      "narrative": "An unoccupied Zoox autonomous vehicle was making a left turn from eastbound [XXX] onto northbound [XXX] in Las Vegas when an active emergency vehicle, with lights and sirens, was rapidly approaching the intersection and conducting a right turn onto northbound [XXX]. The Zoox vehicle was slowing to yield to the approaching active emergency vehicle, when an SUV (Vehicle 2) traveling behind it failed to stop, and rear ended the slowing Zoox vehicle. Two other passenger vehicles (Vehicles 3 & 4) were following behind Vehicle 2. Vehicle 4 appeared to have made contact with Vehicle 3 from behind. Neither Vehicle 3 nor Vehicle 4 contacted the Zoox vehicle, and it does not appear that either contacted Vehicle 2. The driver of Vehicle 2 then pulled over ahead and contacted Zoox support to exchange information. The police were notified, but did not arrive at the scene. The Zoox vehicle was towed from the scene and found to have sustained moderate damage.",
+      "mismatches": [
+        "roadway_type"
+      ],
+      "filed": {
+        "crash_partner": "SUV",
+        "roadway_type": "Street",
+        "other_party_movement": "Making Left Turn",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "SUV",
+        "roadway_type": "Intersection",
+        "other_party_movement": "not stated",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "b643754bc90e",
+      "report_id": "30610-15295",
+      "narrative": "An unoccupied Zoox autonomous vehicle (Vehicle 1) was traveling north on [XXX], having just completed a left turn from [XXX] in Las Vegas, when it encountered debris in its path. The Zoox vehicle attempted to steer right,  then executed hard braking to avoid the debris, at which point it was rear-ended by a passenger car (Vehicle 2) traveling directly behind it. Both vehicles came to a stop following the impact and were subsequently towed due to the damage sustained. Vehicle 2 suffered front-end damage and its driver-side frontal airbags deployed, while the Zoox vehicle sustained moderate damage to its rear. Law enforcement was notified of the event, but did not respond to the scene. Following the impact, Zoox staff inquired if emergency medical services should be called; the driver replied that the police had already been contacted. The driver of Vehicle 2 informed Zoox staff at the scene that they were \"shaken\" and \"pretty bruised\".",
+      "mismatches": [
+        "injury_severity"
+      ],
+      "filed": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Street",
+        "other_party_movement": "Proceeding Straight",
         "injury_severity": "Unknown"
       },
       "model": {
         "crash_partner": "Passenger Car",
         "roadway_type": "not stated",
+        "other_party_movement": "not stated",
+        "injury_severity": "Minor W/O Hospitalization"
+      }
+    },
+    {
+      "id": "f460607c77ef",
+      "report_id": "30413-15464",
+      "narrative": "On May [XXX], 2026 at 4:38 pm CT, a low-hanging utility cable made contact with a May Mobility Autonomous Vehicle (AV) operating in Arlington, Texas on [XXX] near [XXX]. The May Mobility AV was traveling Eastbound on [XXX]. As the May Mobility AV passes [XXX] a loop of an unsecured, low-hanging utility cable that was dangling above the right lane of travel struck the windshield and roof of the May Mobility AV. At the time of impact, the May Mobility AV was in autonomous mode, traveling at 32 MPH. The May Mobility AV sustained damage on the top, front, and right side of the vehicle that is estimated to be more than $1,000. Damage to the utility cable beyond the original state of disrepair is unknown. May Mobility is reporting this crash under Request No. 2 of Standing General Order 2021-01. May Mobility may supplement or correct its reporting with additional information as it becomes available.",
+      "mismatches": [
+        "crash_partner"
+      ],
+      "filed": {
+        "crash_partner": "Other, see Narrative",
+        "roadway_type": "Street",
+        "other_party_movement": "Other, see Narrative",
+        "injury_severity": "No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Other Fixed Object",
+        "roadway_type": "not stated",
+        "other_party_movement": "not stated",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "86432078aae8",
+      "report_id": "30413-15463",
+      "narrative": "On May [XXX], 2026 at 4:11 pm CT, a low-hanging utility cable made contact with a May Mobility Autonomous Vehicle (AV) operating in Arlington, Texas on [XXX] near [XXX] The May Mobility AV was traveling Eastbound on [XXX]. As the May Mobility AV passes [XXX] a loop of an unsecured, low-hanging utility cable that was dangling above the right lane of travel made contact with the front right A-pillar near the windshield of the May Mobility AV. At the time of impact, the May Mobility AV was in autonomous mode, traveling at 33 MPH. The impact left scuffs on the May Mobility AV that were buffed out, not requiring repair. Damage to the utility cable beyond the original state of disrepair is unknown. May Mobility is reporting this crash under Request No. 2 of Standing General Order 2021-01. May Mobility may supplement or correct its reporting with additional information as it becomes available.",
+      "mismatches": [
+        "crash_partner"
+      ],
+      "filed": {
+        "crash_partner": "Other, see Narrative",
+        "roadway_type": "Street",
+        "other_party_movement": "Other, see Narrative",
+        "injury_severity": "No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Other Fixed Object",
+        "roadway_type": "not stated",
+        "other_party_movement": "not stated",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "51a44abfb6cc",
+      "report_id": "30270-15594",
+      "narrative": "On June [XXX], 2026 at 10:30 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving a scooterist on [XXX] near [XXX]. \n\nThe Waymo AV was stopped facing northeast in the second from the left lane on [XXX] in a queue of traffic stopped at the intersection with [XXX]. After the light turned green, and the Waymo AV remained stopped in a queue of traffic, a scooterist traveling northeastbound in the second from the left lane on [XXX] approached the Waymo AV from behind, and the front of the scooter made contact with the rear left side of the stationary Waymo AV, and the scooterist and scooter fell to the ground. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode, and a test driver was present in the driver's seating position. Both vehicles sustained damage. The scooterist alleged moderate injuries.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "roadway_type"
+      ],
+      "filed": {
+        "crash_partner": "Non-Motorist: Scooter - Skateboard",
+        "roadway_type": "Street",
         "other_party_movement": "Proceeding Straight",
-        "injury_severity": "Unknown"
+        "injury_severity": "Moderate W/O Hospitalization"
+      },
+      "model": {
+        "crash_partner": "Non-Motorist: Scooter - Skateboard",
+        "roadway_type": "Intersection",
+        "other_party_movement": "not stated",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "766fb135c191",
+      "report_id": "30270-15594",
+      "narrative": "On June [XXX], 2026 at 10:30 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Los Angeles, California was in a collision involving a scooterist on [XXX] near [XXX]. \n\nThe Waymo AV was stopped facing northeast in the second from the left lane on [XXX] in a queue of traffic stopped at the intersection with [XXX]. After the light turned green, and the Waymo AV remained stopped in a queue of traffic, a scooterist traveling northeastbound in the second from the left lane on [XXX] approached the Waymo AV from behind, and the front of the scooter made contact with the rear left side of the stationary Waymo AV, and the scooterist and scooter fell to the ground. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode, and a test driver was present in the driver's seating position. Both vehicles sustained damage. The scooterist alleged moderate injuries.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "roadway_type"
+      ],
+      "filed": {
+        "crash_partner": "Non-Motorist: Scooter - Skateboard",
+        "roadway_type": "Street",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "Moderate W/O Hospitalization"
+      },
+      "model": {
+        "crash_partner": "Non-Motorist: Scooter - Skateboard",
+        "roadway_type": "Intersection",
+        "other_party_movement": "not stated",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "34e8324fa46b",
+      "report_id": "30270-15592",
+      "narrative": "On June [XXX], 2026 at 1:02 PM MT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Phoenix, Arizona was in a collision involving a passenger car on [XXX] near [XXX].\n\nThe Waymo AV was traveling southbound in the rightmost lane on [XXX] when it began slowing to yield to a queue of traffic ahead. While the Waymo AV was slowing, a passenger car traveling southbound in the rightmost lane on [XXX] maneuvered to the left as it approached the Waymo AV from behind, and the front right side of the passenger car made contact with the rear left side of the Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "other_party_movement"
+      ],
+      "filed": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Street",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "not stated",
+        "other_party_movement": "Changing Lanes",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "e7b9775df1bb",
+      "report_id": "30270-15590",
+      "narrative": "On June [XXX], 2026 at 12:03 AM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving a passenger car on [XXX] at [XXX].\n\nThe Waymo AV was stopped facing northwest in the second to the right lane on [XXX] for a red light at the intersection with [XXX]. While the Waymo AV was stopped, a passenger car traveling northwestbound at a high rate of speed in the rightmost lane on [XXX] maneuvered to the left as it approached the Waymo AV from behind, and the front left side of the passenger car made contact with the right side of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "roadway_type",
+        "other_party_movement"
+      ],
+      "filed": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Street",
+        "other_party_movement": "Lane / Road Departure",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Changing Lanes",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "ea29e89af037",
+      "report_id": "30270-15586",
+      "narrative": "On June [XXX], 2026 at 8:06 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving a passenger car on [XXX] at [XXX]. \n\nThe Waymo AV was stopped facing northeast on [XXX] in a queue of traffic for a red light at the intersection with [XXX]. While the Waymo AV was stopped, the queue of traffic proceeded to clear the intersection. The Waymo AV proceeded forward momentarily and slowed to a stop to yield to the red light, and a passenger car initially stopped directly behind the Waymo AV approached the Waymo AV from behind, and the front of the passenger car made contact with the rear of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "roadway_type"
+      ],
+      "filed": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Street",
+        "other_party_movement": "Proceeding Straight",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Passenger Car",
+        "roadway_type": "Intersection",
+        "other_party_movement": "not stated",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "6a6691c2c427",
+      "report_id": "30270-15582",
+      "narrative": "On June [XXX], 2026 at 2:57 PM CT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in Austin, Texas was in a collision involving a heavy truck on [XXX] at [XXX].\n\nThe Waymo AV was traveling eastbound in the designated right turn lane on [XXX] and slowing, with its right turn signal activated, as it approached a red light at the intersection with [XXX]. As the Waymo AV slowed to a stop, a heavy truck initially stopped facing east on [XXX], partially in the second to the right lane and partially in the bike lane, to the left of the Waymo AV, proceeded forward and began to initiate a wide right turn onto [XXX] at the red light and entered the Waymo AV's lane of travel. The Waymo AV proceeded forward momentarily then slowed to a stop as the heavy truck continued to turn right, and the rear right side of the heavy truck trailer made contact with the left side of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "roadway_type"
+      ],
+      "filed": {
+        "crash_partner": "Heavy Truck",
+        "roadway_type": "Street",
+        "other_party_movement": "Making Right Turn",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "Heavy Truck",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Making Right Turn",
+        "injury_severity": "not stated"
+      }
+    },
+    {
+      "id": "2c1298d73ea1",
+      "report_id": "30270-15559",
+      "narrative": "On June [XXX], 2026 at 12:07 PM PT a Waymo Autonomous Vehicle (\"Waymo AV\") operating in San Francisco, California was in a collision involving an SUV on [XXX] near [XXX]. \n\nThe Waymo AV was stopped facing northeast on [XXX] in a queue of traffic for a flashing red light at the intersection with [XXX]. While the Waymo AV was stopped, an SUV initially stopped directly behind the Waymo AV attempted to pass the Waymo AV to the left, and the right side of the SUV made contact with the rear left side of the stationary Waymo AV. At the time of the impact, the Waymo AV's Level 4 ADS was engaged in autonomous mode. Both vehicles sustained damage.\n\nWaymo is reporting this crash under Request No. 1 of Standing General Order 2021-01 because a vehicle involved was towed away. Waymo may supplement or correct its reporting with additional information as it may become available.",
+      "mismatches": [
+        "roadway_type"
+      ],
+      "filed": {
+        "crash_partner": "SUV",
+        "roadway_type": "Street",
+        "other_party_movement": "Passing",
+        "injury_severity": "Property Damage. No Injured Reported"
+      },
+      "model": {
+        "crash_partner": "SUV",
+        "roadway_type": "Intersection",
+        "other_party_movement": "Passing",
+        "injury_severity": "Property Damage. No Injured Reported"
       }
     }
   ]

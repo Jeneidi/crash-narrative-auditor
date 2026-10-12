@@ -148,6 +148,15 @@ def macro_field_accuracy(rows: list[dict[str, object]], prediction_key: str) -> 
     return results
 
 
+def majority_values(rows: Iterable[dict[str, object]]) -> dict[str, str]:
+    rows = list(rows)
+    return {
+        field: Counter(str(row[field]) for row in rows).most_common(1)[0][0]
+        for field in FIELD_NAMES
+        if rows
+    }
+
+
 def allowed_values(rows: Iterable[dict[str, object]]) -> dict[str, set[str]]:
     return {
         field: {clean_value(row.get(FIELD_COLUMNS[field], "")) for row in rows}

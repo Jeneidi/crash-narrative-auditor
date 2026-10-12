@@ -36,4 +36,11 @@
 .live-card { display: grid; gap: .65rem; margin-top: 1.6rem; }
 .live-card .label { margin-top: .35rem; }
 .live-card textarea { margin-top: .35rem; }
+.review-list { display: grid; gap: 1rem; margin-top: 2rem; }
+.review-item { border: 1px solid var(--color-rule); border-radius: 12px; padding: 1.2rem; }
+.review-head { align-items: start; display: flex; gap: 1rem; justify-content: space-between; }
+.review-head .mono { color: var(--color-haze); margin: 0 0 .45rem; }
+.review-head .h3 { margin: 0; }
+.review-item .prose { margin: 1rem 0 0; max-height: 9rem; overflow: auto; }
+.review-item .evidence { margin-bottom: 0; }
 @media (max-width: 767px) { .data-line { align-items: flex-start; flex-direction: column; gap: .25rem; } .data-line b { text-align: left; } .metric-table { font-size: .86rem; } .metric-table th, .metric-table td { padding-inline: .4rem; } .field-head { align-items: flex-start; flex-direction: column; } }

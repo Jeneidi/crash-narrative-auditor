@@ -32,9 +32,19 @@ def compact_row(row: dict[str, str]) -> dict[str, object]:
         "report_version": row.get("Report Version", ""),
         "reporting_entity": row.get("Reporting Entity", "") or "Unknown entity",
         "submission_date": row.get("Report Submission Date", "") or "not stated",
-        "narrative": row.get("Narrative", "").strip(),
+        "narrative": normalize_narrative(row.get("Narrative", "")),
         **{field: clean_value(row.get(column, "")) for field, column in FIELD_COLUMNS.items()},
     }
+
+
+def normalize_narrative(value: str) -> str:
+    """Repair known double-encoded spaces without changing labels or predictions."""
+    return (
+        value.strip()
+        .replace("\u00c3\u0082\u00c2\u00a0", " ")
+        .replace("\u00c2\u00a0", " ")
+        .replace("\u00a0", " ")
+    )
 
 
 def main() -> None:

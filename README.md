@@ -10,9 +10,18 @@ Autonomous-vehicle teams triage free-text crash narratives for anomaly detection
 
 ## The result
 
-On 444 held-out reports from the NHTSA ADS incident CSV, the auditor reached 55.68693693693694% macro accuracy versus 29.11036036036036% for a keyword and regex baseline. Evidence quotes were exact narrative substrings for 99.88738738738738% of fields, and non-abstained accuracy was 81.18729096989966%. Measured runtime was 3.7754842342342343 seconds per report. Cash cost per 1,000 reports was $0.00 through the Claude Code subscription CLI.
+On the 1,196 field values the narratives actually state, the extractor matches the filed value 81.2% versus 40.6% for majority guessing on the same values, abstains on the rest, and every evidence quote is checked (99.9% exact).
 
-Per-field model accuracy versus baseline: crash partner 95.27027027027027% versus 74.32432432432432%, roadway type 36.711711711711715% versus 22.2972972972973%, other party movement 66.44144144144144% versus 15.54054054054054%, and injury severity 24.324324324324326% versus 4.2792792792792795%.
+The favorable majority baseline is computed from the most common filed value in these same test rows. Keyword and majority results below are evaluated on the same answered slots as the model, with all-row accuracy retained for transparency.
+
+| Field | Coverage | Model answered | Majority answered | Keyword answered | Model all rows | Majority all rows | Keyword all rows |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Crash partner | 98.9% | 96.4% | 29.8% | 75.2% | 95.3% | 30.0% | 74.3% |
+| Roadway type | 57.4% | 63.9% | 59.2% | 38.0% | 36.7% | 73.4% | 22.3% |
+| Other party movement | 82.2% | 75.9% | 26.3% | 16.2% | 66.4% | 28.4% | 15.5% |
+| Injury severity | 30.9% | 78.8% | 78.8% | 11.7% | 24.3% | 85.6% | 4.3% |
+
+Roadway type and injury severity barely beat or tie majority on answered slots because one filed category dominates each field, and narratives rarely state property damage. Measured runtime was 3.78 seconds per report. Cash cost per 1,000 reports was $0.00 through the Claude Code subscription CLI.
 
 ## How it works
 
@@ -20,7 +29,7 @@ Per-field model accuracy versus baseline: crash partner 95.27027027027027% versu
 2. Split by report submission month: newest 30%, plus every report from the smallest reporting entity.
 3. Ask Claude Haiku 5.5 for four enumerated fields and a verbatim evidence span for each.
 4. Validate with Pydantic, exact substring checks and a deterministic keyword baseline.
-5. Compare field accuracy with bootstrap 95% confidence intervals and queue disagreements for review.
+5. Compare answered-slot and all-row accuracy with bootstrap 95% confidence intervals, then queue disagreements for human review.
 
 ## Data and license
 
@@ -28,7 +37,7 @@ The source is the [NHTSA Standing General Order ADS incident CSV](https://static
 
 ## Evaluation method
 
-The structured columns are a useful built-in answer key, not perfect truth. The headline metric is macro average of exact per-field accuracy across crash partner, roadway type, other party pre-crash movement and highest injury severity alleged. The baseline uses transparent keyword and regex-style aliases. The model output is recorded from Claude Haiku 5.5 via Claude Code on 2026-10-12, cached in batches, and never calls `api.openai.com`. A queue of 50 model versus filed disagreements is included for human review. It is not presented as a completed hand check.
+The structured columns are a useful built-in answer key, not perfect truth. The headline metric is exact accuracy over the 1,196 field slots where the model answered. The majority baseline is the most common filed value per field computed on the test rows, which makes it a favorable comparison. Keyword and majority accuracy on answered slots use the same rows as the model. The model output is recorded from Claude Haiku 5.5 via Claude Code on 2026-10-12, cached in batches, and never calls `api.openai.com`. A queue of 50 model versus filed disagreements plus the most common filed/model pairs is included for human review. It is not presented as a completed hand check.
 
 ## How to run
 

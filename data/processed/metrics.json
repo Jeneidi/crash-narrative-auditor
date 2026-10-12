@@ -3,6 +3,23 @@
   "model_rows": 444,
   "fields": {
     "crash_partner": {
+      "majority_value": "Passenger Car",
+      "answered_slots": 439,
+      "coverage": {
+        "model": 0.9887387387387387,
+        "majority": 1.0,
+        "keyword": 0.8738738738738738
+      },
+      "answered_slot_accuracy": {
+        "model": 0.9635535307517085,
+        "majority": 0.2984054669703872,
+        "keyword": 0.7517084282460137
+      },
+      "all_rows_accuracy": {
+        "model": 0.9527027027027027,
+        "majority": 0.29954954954954954,
+        "keyword": 0.7432432432432432
+      },
       "model_accuracy": 0.9527027027027027,
       "baseline_accuracy": 0.7432432432432432,
       "ci95": [
@@ -11,6 +28,23 @@
       ]
     },
     "roadway_type": {
+      "majority_value": "Street",
+      "answered_slots": 255,
+      "coverage": {
+        "model": 0.5743243243243243,
+        "majority": 1.0,
+        "keyword": 0.6216216216216216
+      },
+      "answered_slot_accuracy": {
+        "model": 0.6392156862745098,
+        "majority": 0.592156862745098,
+        "keyword": 0.3803921568627451
+      },
+      "all_rows_accuracy": {
+        "model": 0.36711711711711714,
+        "majority": 0.7342342342342343,
+        "keyword": 0.22297297297297297
+      },
       "model_accuracy": 0.36711711711711714,
       "baseline_accuracy": 0.22297297297297297,
       "ci95": [
@@ -19,6 +53,23 @@
       ]
     },
     "other_party_movement": {
+      "majority_value": "Proceeding Straight",
+      "answered_slots": 365,
+      "coverage": {
+        "model": 0.8220720720720721,
+        "majority": 1.0,
+        "keyword": 0.8400900900900901
+      },
+      "answered_slot_accuracy": {
+        "model": 0.7589041095890411,
+        "majority": 0.26301369863013696,
+        "keyword": 0.16164383561643836
+      },
+      "all_rows_accuracy": {
+        "model": 0.6644144144144144,
+        "majority": 0.28378378378378377,
+        "keyword": 0.1554054054054054
+      },
       "model_accuracy": 0.6644144144144144,
       "baseline_accuracy": 0.1554054054054054,
       "ci95": [
@@ -27,6 +78,23 @@
       ]
     },
     "injury_severity": {
+      "majority_value": "Property Damage. No Injured Reported",
+      "answered_slots": 137,
+      "coverage": {
+        "model": 0.30855855855855857,
+        "majority": 1.0,
+        "keyword": 0.15990990990990991
+      },
+      "answered_slot_accuracy": {
+        "model": 0.7883211678832117,
+        "majority": 0.7883211678832117,
+        "keyword": 0.11678832116788321
+      },
+      "all_rows_accuracy": {
+        "model": 0.24324324324324326,
+        "majority": 0.8558558558558559,
+        "keyword": 0.04279279279279279
+      },
       "model_accuracy": 0.24324324324324326,
       "baseline_accuracy": 0.04279279279279279,
       "ci95": [
@@ -37,8 +105,18 @@
   },
   "evidence_exact_rate": 0.9988738738738738,
   "abstention_rate": 0.32657657657657657,
+  "coverage": 0.6734234234234234,
   "non_abstained_accuracy": 0.8118729096989966,
+  "answered_slot_accuracy": {
+    "model": 0.8118729096989966,
+    "majority": 0.40635451505016723,
+    "keyword": 0.4197324414715719
+  },
+  "answered_slot_count": 1196,
+  "answered_slot_total": 1776,
   "macro_accuracy": 0.5568693693693694,
+  "keyword_macro_accuracy": 0.2911036036036036,
+  "majority_macro_accuracy": 0.5433558558558559,
   "baseline_macro_accuracy": 0.2911036036036036,
   "valid_output_rate": 0.9954954954954955,
   "cash_cost_per_1000": 0.0

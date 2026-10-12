@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from src.core import Extraction, accuracy, bootstrap_ci, keyword_baseline, validate_extraction
+from src.core import Extraction, accuracy, bootstrap_ci, keyword_baseline, majority_values, validate_extraction
 
 
 LABELS = {
@@ -57,3 +57,18 @@ def test_metric_math_and_ci_are_bounded():
     assert accuracy(predictions, gold) == 0.5
     low, high = bootstrap_ci(predictions, gold, rounds=200)
     assert 0 <= low <= high <= 1
+
+
+def test_majority_baseline_and_answered_slot_coverage_math():
+    rows = [
+        {"crash_partner": "Passenger Car", "roadway_type": "Street", "other_party_movement": "Proceeding Straight", "injury_severity": "Property Damage. No Injured Reported"},
+        {"crash_partner": "Passenger Car", "roadway_type": "Street", "other_party_movement": "Making Right Turn", "injury_severity": "Property Damage. No Injured Reported"},
+        {"crash_partner": "SUV", "roadway_type": "Intersection", "other_party_movement": "Proceeding Straight", "injury_severity": "Fatality"},
+    ]
+    majority = majority_values(rows)
+    assert majority["roadway_type"] == "Street"
+    model_predictions = ["Street", "not stated", "Intersection"]
+    answered_indexes = [index for index, value in enumerate(model_predictions) if value != "not stated"]
+    assert len(answered_indexes) / len(rows) == 2 / 3
+    assert accuracy([model_predictions[index] for index in answered_indexes], [rows[index]["roadway_type"] for index in answered_indexes]) == 1.0
+    assert accuracy([majority["roadway_type"] for index in answered_indexes], [rows[index]["roadway_type"] for index in answered_indexes]) == 0.5
