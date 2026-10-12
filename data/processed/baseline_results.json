@@ -1,0 +1,6662 @@
+[
+  {
+    "id": "84ba805a2ca7",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "cbd9647e9282",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "3e5a70c3fb02",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d3eb45d2de67",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "088729e52313",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d43235a5afcf",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "7860726f04da",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "94a96105b92c",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "2ebcb1f87498",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d8beba5609cd",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "0cf600cb5e09",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c8f021c79790",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "7a1557c8c24a",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "f46281ee7c8b",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Property Damage. No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "85331d32c66c",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Property Damage. No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "89713ed9aa26",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Highway / Freeway",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Passing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "684ac03465ca",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "38a2eed85e84",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "19bc587687bd",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Backing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "2023126ee2e0",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1dd87dd0393c",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "559fc8c0e2a8",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a1ee03f07a03",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Changing Lanes",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d7b498e69a1f",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "41f0579fb35e",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d9910c3c5b84",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "cb03f1ad23bf",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "77f934933218",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1e448c9f1c26",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d0beb0cafa1f",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "241440d100a5",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Backing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "cd2c79c6318b",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d0f519877a9e",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "f23cf34941cc",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "0a86dc684a79",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "62137d9915d0",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "cf9028ee69c0",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "48a3bfffaf6b",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9133f4969cb2",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Unknown",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c7cf6a1d3b7d",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "8ebc32a5fdac",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "f06710958ae0",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ebeca01505d1",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fdcaa38f6885",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a48a576ebce3",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "246a869440ff",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b72c567bed85",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a95eefb3dcca",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "95f8c1ef83e4",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "835eed515403",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "78375892c4a8",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a3597001e4dc",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "3714de1eec57",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ee249716a53c",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "cf10fc50c4c1",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e2ee64114153",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "331b7511f9d2",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1514daadc5c7",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "556599bf166c",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "0f7e9fb54c57",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "051bd1709b21",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "8ce5b49c1699",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "2d60f884b51b",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d36a3910487b",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1550075f3bfd",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "7f50a6e0a467",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "5a8f6f3a0cc1",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "39a69d6a8eea",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "21c7f7a16467",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "499c1d2c16b4",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ea842e7b72f0",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "8df2c80f4185",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Passing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "89c838124ed7",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c38a72fcbed8",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "283b39fa9a33",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b14462d360ad",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e465077753ef",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9aa6d8d2e6b1",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "95d77dbf768e",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "69a15d119b45",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "966cdb29d5d0",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Passing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "bf575def4fe2",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "686a0eba2a22",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "0eff69ffa429",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "68a12a8df70b",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "55e508554311",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "2b503743eb0d",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "7b33f654934b",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "12ff71e6a613",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "08167deef941",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "bdff96d3e545",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ab239fd2bcd6",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b2f88162993d",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "f38f352bca0d",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d2353a73405d",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a6378a291e8d",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "17db6bcc5c86",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "5a574aa6dbee",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1d655955af48",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "afd96c92385f",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "7a62ddbee4d1",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Passing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d379df409c8b",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "4a034d0ffb63",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b498e19a8844",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6004200f7ebc",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "f01fd493b3cb",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e532b9d1d924",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "938151a1fcaa",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b69fc81790fd",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Unknown",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "17c66ecc41ce",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "10ae4a22fd4b",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "05411d8a79ff",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "32b92178356a",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "4830f727850a",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Backing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "641008b667da",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ee2669c5d432",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "82caec62d3e3",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Backing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e0e543493c64",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "01bdd46fcaff",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c3c1dcd3e4ba",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "275c43d4fb41",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "13307dc4348c",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "da769d184e49",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "21285a6340c1",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1e7f6a2a3758",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "210d7db3a58e",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "115f11bf33f9",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1a8e8eb799fe",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ff6ef8c6b94c",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b643754bc90e",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "f460607c77ef",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Unknown",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Unknown",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "86432078aae8",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Unknown",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Unknown",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1456025e7df6",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "51a44abfb6cc",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "766fb135c191",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a2efa517cbe9",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "34e8324fa46b",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e7b9775df1bb",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ea29e89af037",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6a6691c2c427",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "2c1298d73ea1",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "66f3a99f2e40",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "f95647ee754e",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "74c3a6dfa30c",
+    "prediction": {
+      "crash_partner": "Motorcycle",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "80b8fa1afa3a",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Backing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e70db02bd4a2",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6e9cfd8f9d3c",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "63dd2ccdffae",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "7a78074b1c19",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "627c4999dbbd",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fea2c840df74",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "81dbbd45e29e",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "8ce3294c6997",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c161d3684779",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Highway / Freeway",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "5e6fde36d130",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c62263d862ca",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "997a9e9ff5be",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "3f01aabcad93",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9eca23c0ebe0",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d85d43afe649",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "2ef55bee2367",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "090bd469ef66",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "135000cdabe8",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e509907bc95d",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d9f5234ae3dd",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ad81cfc5e7be",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "Unknown",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Unknown",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "3c2fe0e5a800",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fb48befc43b7",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "194fcfa6fffd",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6dd6d4b33443",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "f9f2f366b292",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "289644d1b549",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "aa4aa582eac1",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "dd4d0ea7ee8f",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "26cc61a26f7b",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a06f53337f5d",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "Street",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fc1d3423e92c",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "520dce8e9cac",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "aed1b41ea96b",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ca01d9c260f2",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b8aaece59e8a",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fd2582de9713",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e0259a37fd00",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "82fa3306dae4",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b3f2030a5c16",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "afb96c047554",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Backing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "13a9a9081e97",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b40e6839578d",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "382084b20720",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "33b0b27016ec",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6fe5247bac73",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "07fd55fd3aa1",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1a1e82d9e0a1",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "500cd0078593",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1d2c27bacfad",
+    "prediction": {
+      "crash_partner": "Animal",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Changing Lanes",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a1970d114afe",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "5ebf18804436",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "84344e053331",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Passing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "908230a5ce9f",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6aa565444e6f",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "92fbb69bb756",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9adffcb786ba",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1c877104d30c",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6e4eb7486b02",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a1aa1dfe5c49",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "5a487527d047",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "8264cba979c5",
+    "prediction": {
+      "crash_partner": "First Responder Vehicle",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "16c4c66dd07c",
+    "prediction": {
+      "crash_partner": "Animal",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "431fd874c986",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a36ff30b6cb2",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "11cd2896b301",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9b1cc3c9989a",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "8985818c4e13",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "3173191c615c",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a9dafdb19f41",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "0b518aba4474",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "cb359be1febb",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "81f7522e61b8",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "0fd81849e445",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fa572f1894fb",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "37d448b16a36",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ef3f6087037c",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "18bd29ba2036",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a1bf91d33ee6",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "4785d44e0ffb",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "f94f872e47e0",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "990a3815a081",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "26e994281747",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e0cbf05cb88d",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6f100420db10",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c8ca841f8a54",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "56a8cdd78b61",
+    "prediction": {
+      "crash_partner": "Animal",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9f7ca52d33ec",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "15da2500702d",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fdb3eb343939",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fa827263ef54",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "785e7469bd71",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "2b2a17f68814",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "97b9be6bfc6b",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9af3406e8154",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "152a09f62df4",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c121b1014bfc",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Street",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "3feee0beb883",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6f4b719f883a",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "5282a0fa0d99",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b15c63ec2f2f",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "27b844ff084f",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "8c62e18e2455",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "f87dd0bda37f",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "91bbe7f0c9dd",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "26f43fd7d861",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "19647c094984",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6438749df6df",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fb090b9cf69d",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b3965d509986",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9895aa6178cf",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Street",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "4073b8601dfb",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "af926f7f307b",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b2cbe13d0ccf",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e839d407bec9",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d3a4d1b56931",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1d36ae5d7618",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "8859f02760ec",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Property Damage. No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "4288dd077a0e",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "aef4c148d1c8",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Passing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d38a5be468f4",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d69f7835ae7d",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Serious W/ Hospitalization",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b42ead879125",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c57215fd8323",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "74dc9f2cd177",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e3fd3e55653f",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Backing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "0264248bebff",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9cb7c346f410",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1ed1e982c362",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "8e61a7dc2312",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "107f2b743e58",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6d0f6d145d22",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a46083981e32",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d40aec9f102b",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6c2f4258a961",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Passing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "60a6bdbbb57c",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "Street",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "2b6eceb77b5f",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c28e49516abc",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "711331075c25",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "afb8e6b2c817",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "13bbd7d122bd",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "4fd80a438a7b",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "89fd2eecbea2",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a2616c8d94b0",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "0cc7d9487e7f",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Changing Lanes",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "98f51742ba62",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "0c7ad63d12a0",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "3bc7c6bb8fca",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "3d02c605c5c9",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "bd1d89746ead",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Minor W/O Hospitalization",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "86b3fca0b7e0",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "8600073748e6",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "27653ea26b50",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c5a162cd1855",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ed15a0bf0c5b",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b5b4b0faba53",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "87e8dd46745f",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c6911ddbe2fa",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "76ebcf374f9c",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "95ed257c12ba",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "61f6b4e32cb8",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b802638749d7",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "82ef570fd828",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e947c7d6164b",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "229be3cfc597",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "3c0afaabced6",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "49fc5eb1c17e",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fca541b0bfee",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fcf0504b87b4",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ef1576148071",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "caffb017e1f9",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9a0fd91177e9",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "faddf1ca0b5b",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "93660379698f",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "01928e50055f",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9ccf671c4696",
+    "prediction": {
+      "crash_partner": "Other Fixed Object",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9effcceec217",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "bd89d6af9efa",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Unknown",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Unknown",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "54703bdbbc61",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "433e0acbd139",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c7a8c80859f3",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Street",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e776e8365699",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "248e85a13da5",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d15caa87bb60",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "cb5250311ca6",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "00eb693d5d9f",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6c3eb135ba30",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "230194040283",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "244f2ea925f4",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e0655f39762e",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "2226e54746a4",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "77f709680abe",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e314ea7f1a02",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fda1f2760ed8",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ccb2ffed6815",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "98ed6c6eed8d",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Unknown",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Unknown",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Unknown",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "4b65709704bb",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "884a5c347e7e",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6305f0afc3bb",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fc82dd6f54bb",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "22d45b331992",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e2e0bda5a639",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "19b143b7f6fd",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "2d6c3458240d",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a1b6b1f064ff",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "45b3d8f3a369",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "675e26a12f6a",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "8cdac31984a8",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e84b75202c3f",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "88ee318cc24f",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "61e4124ddf0c",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "96d6843c3ce7",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "7541c5fa5290",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9d89e64b1f93",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b8c081bb6f25",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e3726c5e13b2",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ededc27ac5e4",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d0833407071f",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "99693aa67d41",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e009d324772c",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ea45f7fe7a70",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e570f058bfa0",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c0873b158aa7",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "8d645a3a1882",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "4e5ffabb285a",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "71e6b0fd746c",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "9202f34d7e05",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "71f626158773",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "3498f70e7dd0",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "830d198e9545",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b746c14b7954",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "91cf9a62a337",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a02284e180cd",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "88cd498de6ac",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Parked",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "653011c58d5b",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "43b4bf6f1b82",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "180c7649b186",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e983d2428e73",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "7aad6f00d50d",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "No Injured Reported",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "79d4880d4350",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1497c1a2b57f",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "45db5a45dac8",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "312c38267a37",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Minor W/O Hospitalization",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "70ce188190e1",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e367817940ef",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Pedestrian",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "Fatality",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d1a0e0c6b27d",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b67fde39b005",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "91214a2e5cfb",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b1c562a5c0d0",
+    "prediction": {
+      "crash_partner": "Van",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "f801650acaca",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Passing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d6a2ec9c1cc1",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "f6e82f997111",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Changing Lanes",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "5b3f1e69471f",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "39cd27df4bdb",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "907618998787",
+    "prediction": {
+      "crash_partner": "Bus",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "2e21487b193b",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1e0c4f3f7916",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "dafbe770c29d",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "09ca9975a902",
+    "prediction": {
+      "crash_partner": "Other Fixed Object",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "620e994f8ca3",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "4f9447ed4c28",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "dede6b4bcf98",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a27290888cf1",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Backing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d53163dee475",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "b1ccfdc660f8",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "7b6f158d006c",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c17fd221a572",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "23a95bf1b36b",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fa46588b3a1d",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "86ce5a45ddef",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Changing Lanes",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "92fd815ce483",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d95225bb14b9",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Passing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "abcdf26c90f2",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "83b36555c905",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "7c9260353934",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "e430b3ac58fd",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Backing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "c2e534e0ae18",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a59b58e34348",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Backing",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "0363671f0224",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "830f8be646ca",
+    "prediction": {
+      "crash_partner": "Non-Motorist: Cyclist",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "fce2dcd4da46",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "18498cea4463",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "bba5ca570963",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "eb762c03a2fa",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "17617c246ac9",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "979c6811e955",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "195a8147b3ca",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "befc18bcd46d",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "cb828cb18065",
+    "prediction": {
+      "crash_partner": "SUV",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ca68dd87161f",
+    "prediction": {
+      "crash_partner": "Heavy Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Left Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d17af2d09208",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Changing Lanes",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d0f7e41a85d9",
+    "prediction": {
+      "crash_partner": "Pickup Truck",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ab7d6a136ac5",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "6d407787eed1",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "Intersection",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "1935235263d3",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Proceeding Straight",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "859b96788e7d",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "a76e29b57348",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Highway / Freeway",
+      "roadway_type_evidence": "",
+      "other_party_movement": "not stated",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "d01ae4e4e976",
+    "prediction": {
+      "crash_partner": "not stated",
+      "crash_partner_evidence": "",
+      "roadway_type": "Parking Lot",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Making Right Turn",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  },
+  {
+    "id": "ca2be7b15f18",
+    "prediction": {
+      "crash_partner": "Passenger Car",
+      "crash_partner_evidence": "",
+      "roadway_type": "not stated",
+      "roadway_type_evidence": "",
+      "other_party_movement": "Stopped",
+      "other_party_movement_evidence": "",
+      "injury_severity": "not stated",
+      "injury_severity_evidence": ""
+    },
+    "valid": true,
+    "errors": []
+  }
+]

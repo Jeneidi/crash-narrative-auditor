@@ -1,0 +1,64 @@
+{
+  "allowed": {
+    "crash_partner": [
+      "Animal",
+      "Bus",
+      "First Responder Vehicle",
+      "Heavy Truck",
+      "Motorcycle",
+      "Non-Motorist: Cyclist",
+      "Non-Motorist: Other",
+      "Non-Motorist: Pedestrian",
+      "Non-Motorist: Scooter - Skateboard",
+      "Other Fixed Object",
+      "Other, see Narrative",
+      "Passenger Car",
+      "Pickup Truck",
+      "Pole / Tree",
+      "SUV",
+      "Van"
+    ],
+    "roadway_type": [
+      "Highway / Freeway",
+      "Intersection",
+      "Parking Lot",
+      "Street",
+      "Traffic Circle",
+      "Unknown",
+      "Unpaved Road"
+    ],
+    "other_party_movement": [
+      "Backing",
+      "Changing Lanes",
+      "Crossing into Opposing Lane",
+      "Entering Traffic",
+      "Lane / Road Departure",
+      "Making Left Turn",
+      "Making Right Turn",
+      "Making U-Turn",
+      "NM Crossing Roadway",
+      "NM in Roadway - Other",
+      "Other, see Narrative",
+      "Parked",
+      "Parking Maneuver",
+      "Passing",
+      "Proceeding Straight",
+      "Stopped",
+      "Traveling Wrong Way",
+      "Unknown",
+      "not stated"
+    ],
+    "injury_severity": [
+      "Fatality",
+      "Minor W/ Hospitalization",
+      "Minor W/O Hospitalization",
+      "Moderate W/ Hospitalization",
+      "Moderate W/O Hospitalization",
+      "No Injured Reported",
+      "Property Damage. No Injured Reported",
+      "Serious W/ Hospitalization",
+      "Unknown"
+    ]
+  },
+  "smallest_entity": "Gatik AI Inc."
+}

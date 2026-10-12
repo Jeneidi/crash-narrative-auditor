@@ -1,0 +1,45 @@
+{
+  "rows": 444,
+  "model_rows": 444,
+  "fields": {
+    "crash_partner": {
+      "model_accuracy": 0.9527027027027027,
+      "baseline_accuracy": 0.7432432432432432,
+      "ci95": [
+        0.9301801801801802,
+        0.9707207207207207
+      ]
+    },
+    "roadway_type": {
+      "model_accuracy": 0.36711711711711714,
+      "baseline_accuracy": 0.22297297297297297,
+      "ci95": [
+        0.32207207207207206,
+        0.41216216216216217
+      ]
+    },
+    "other_party_movement": {
+      "model_accuracy": 0.6644144144144144,
+      "baseline_accuracy": 0.1554054054054054,
+      "ci95": [
+        0.6216216216216216,
+        0.7072072072072072
+      ]
+    },
+    "injury_severity": {
+      "model_accuracy": 0.24324324324324326,
+      "baseline_accuracy": 0.04279279279279279,
+      "ci95": [
+        0.20270270270270271,
+        0.28378378378378377
+      ]
+    }
+  },
+  "evidence_exact_rate": 0.9988738738738738,
+  "abstention_rate": 0.32657657657657657,
+  "non_abstained_accuracy": 0.8118729096989966,
+  "macro_accuracy": 0.5568693693693694,
+  "baseline_macro_accuracy": 0.2911036036036036,
+  "valid_output_rate": 0.9954954954954955,
+  "cash_cost_per_1000": 0.0
+}

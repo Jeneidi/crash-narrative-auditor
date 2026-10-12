@@ -1,0 +1,9 @@
+.venv/
+data/raw/
+data/cache/
+src/
+scripts/
+tests/
+*.py
+*.csv
+*.log
